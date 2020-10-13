@@ -1,7 +1,8 @@
 # Projeto Integrador - ADS - Hephaestus
 
-Objetivo:
-Criar um site que 
+#Objetivo
+
+
 
 Integrantes:
 - André Luís da Silva e Silva
