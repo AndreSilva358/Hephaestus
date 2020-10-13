@@ -18,5 +18,5 @@ Para esta entrega, tivemos como ideia inicial o desenvolvimento do protótipo da
 ## Mapa de Páginas/fluxograma
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Mapa%20de%20P%C3%A1ginas-2.png?raw=true)
 
-## Personalização : Desconto para clientes
+## Personalização - Desconto para clientes
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Promo%C3%A7%C3%A3o/Promo%C3%A7%C3%A3o.png?raw=true)
