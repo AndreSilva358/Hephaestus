@@ -1,12 +1,9 @@
-# Projeto Integrador - ADS - Hephaestus
+# 1ª ENTREGA (Sprint 0)
 
-Objetivo:
-Criar um site que venda conteúdo didático referente à área de tecnologia da informação.
+### Data: 27/09/2020
 
-Integrantes:
-- André Luís da Silva e Silva
-- Vinicius Henrique dos Santos de Oliveira
-- Stephani Soares Junqueira 
-- Debora Conceição Faria
-- Mariana de Souza Assis
-- Gustavo da Silva Moura
+## Objetivo
+Para esta entrega, tivemos como ideia inicial o desenvolvimento do protótipo das páginas do site, utilizando a ferramenta Draw.io, bem como o desenvolvimento do “Plano de Negócios”, diagrama “Caso de Uso”, mapa de páginas e criação de funcionalidades. 
+
+## Valores entregues 
+
