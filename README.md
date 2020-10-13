@@ -1,4 +1,4 @@
-<img src=”https://1.bp.blogspot.com/-iF9W2j3HSJI/TtkQI1eq07I/AAAAAAAAFyw/vSR-3Ah_NEU/s400/Logo%2BFATECSJC.jpg”>
+
 
 # Projeto Integrador - Equipe Hephaestus
 Projeto sendo desenvolvido pelo 1º termo do curso de Análise e Desenvolvimento de Sistemas, FATEC de São José dos Campos.
@@ -22,3 +22,5 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 - Inglês I  - Prof. Nilo Jeronimo Vieira
 -  Matemática Discreta  -  Prof.ª Renata Cristiane Fusverk da  Silva
 
+## Plano de Negócios
+<img src=”https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true”>
