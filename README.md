@@ -1,4 +1,4 @@
-<img src=”https://fatecsjc-prd.azurewebsites.net/images/logo/fatecsjc_400x192.png”>
+<img src=”https://1.bp.blogspot.com/-iF9W2j3HSJI/TtkQI1eq07I/AAAAAAAAFyw/vSR-3Ah_NEU/s400/Logo%2BFATECSJC.jpg”>
 
 # Projeto Integrador - Equipe Hephaestus
 Projeto sendo desenvolvido pelo 1º termo do curso de Análise e Desenvolvimento de Sistemas, FATEC de São José dos Campos.
