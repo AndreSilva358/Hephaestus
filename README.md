@@ -6,12 +6,11 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 
 ## Integrantes
 - André Luís da Silva e Silva
-- Vinicius Henrique dos Santos de Oliveira
-- Stephani Soares Junqueira 
 - Debora Conceição Faria
+- Gustavo da Silva Moura 
 - Mariana de Souza Assis
-- Gustavo da Silva Moura
-
+- Stephani Soares Junqueira
+- Vinicius Henrique dos Santos de Oliveira
 
 ## Disciplinas Integradas
 - Arquitetura e Organização de Computadores - Prof. Antonio Wellington Sales Rios   
