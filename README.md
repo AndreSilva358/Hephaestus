@@ -24,3 +24,6 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 
 ## Plano de Negócios
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
+
+## Diagrama "Caso de Uso"
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
