@@ -28,6 +28,6 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 ## Diagrama "Caso de Uso"
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
-## Protótipo da home(página inicial)
+## Protótipo da Home (Página Inicial)
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/P%C3%A1gina%20inicial.png?raw=true)
 
