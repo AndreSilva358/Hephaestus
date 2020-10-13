@@ -10,6 +10,3 @@ Integrantes:
 - Debora Conceição Faria
 - Mariana de Souza Assis
 - Gustavo da Silva Moura
-
-Plano de negócios:
-
