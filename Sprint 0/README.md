@@ -3,6 +3,9 @@
 ### Data: 27/09/2020
 - [x] Sprint 0 
 
+## Objetivo
+Nesta entrega, realizaremos um levantamento de requisitos, para melhor organização. Será desenvolvido também um mapa de páginas/fluxograma, e a partir desse ponto executaremos o protótipo das páginas do site. Finalizando a Sprint 0, será elaborado o Plano de Negócios, que serve como ferramenta de orientação na busca de informações detalhadas sobre o ramo, produtos e serviços que o projeto irá oferecer.
+
 ## Valores entregues
 Para esta entrega, tivemos como ideia inicial o desenvolvimento do protótipo das páginas do site, utilizamos a ferramenta **Draw.io**. Elaboramos também o “Plano de Negócios”, diagrama “Caso de Uso”, mapa de páginas/fluxograma e as funcionalidades que estarão presentes no projeto final.
 
