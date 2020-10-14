@@ -40,15 +40,19 @@ As sprints do projeto estão distribuídas em 4 entregas que serão feitas ao lo
 
 
 ## Plano de Negócios
+O Plano de Negócios serve como ferramenta de orientação na busca de informações detalhadas sobre o ramo, produtos e serviços que o empreendimento irá oferecer.
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
 
 ## Diagrama "Caso de Uso"
+O diagrama de caso de uso descreve a funcionalidade proposta para um novo sistema que será projetado, é uma excelente ferramenta para o levantamento dos requisitos funcionais do sistema.
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
 ## Protótipo da Página Inicial
+Produto de trabalho da fase de testes e planejamento do projeto.
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/P%C3%A1gina%20inicial.png?raw=true)
 
 ## Ferramentas
 Ferramentas utilizadas até o presente momento.
 
 - [Draw.io]( https://app.diagrams.net/)
+Ferramenta utilizada para o desenvolvimento do protótipo.
