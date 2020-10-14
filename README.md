@@ -17,5 +17,5 @@ Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e aprese
 
 ## Valores Entregues
 
-Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para clientes das mais diversas faixas etária e que passasse de forma adequada e clara o conhecimento esperado, atraindo mais usuários pela metodologia exclusiva. Foi desenvolvido também em HTML os conteúdos e a home (página inicial).
+Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etária e que passasse de forma adequada e clara o conhecimento esperado, atraindo um número significativo de usuários em virtude da metodologia exclusiva. Foi desenvolvido em HTML os conteúdos e a home (página inicial).
 
