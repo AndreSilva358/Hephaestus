@@ -2,15 +2,14 @@
 
 ### Data: 27/09/2020
 
-
 Estabelecemos juntamente com a necessidade da empresa/cliente, a aplicação do seguinte card:
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Card%201.png?raw=true)
 
-
 ## Objetivo
 
-Nesta entrega, realizaremos um levantamento de requisitos, para melhor organização da execução do projeto. Será desenvolvido também um mapa de páginas/fluxograma, e a partir desse ponto executaremos o protótipo das páginas do site. E por fim, será elaborado o Plano de Negócios, que serve como ferramenta de orientação na busca de informações detalhadas sobre o ramo, produtos e serviços que o projeto irá oferecer.
+Nesta fase do projeto, nosso objetivo consiste em entregar o protótipo de um site para comercialização de conteúdos didáticos, para tanto, inicialmente faremos um levantamento de requisitos, para que assim possamos suprir todos as necessidades de nosso cliente de maneira objetiva.
+Para atingir nossos objetivos utilizaremos a **Metodologia Scrum**. Além do esboço do site, entregaremos também o diagrama de "Caso de Uso", o fluxograma das páginas do site, o Plano de Negócios, bem como o planejamento para as futuras entregas. Desta forma, será possível a percepção de uma visão geral do nosso produto e de como faremos para entregá-lo em tempo hábil.
 
 ## Valores Entregues
 
