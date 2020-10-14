@@ -8,12 +8,12 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 **Nossa meta é entregar um site com capacidade de crescimento, atraindo usuários das mais diversas áreas e tornando a marca de nosso cliente referência no mercado acadêmico.**
 
 ## Integrantes
-- André Luís da Silva e Silva
-- Debora Conceição Faria
-- Gustavo da Silva Moura 
-- Mariana de Souza Assis
-- Stephani Soares Junqueira
-- Vinicius Henrique dos Santos de Oliveira
+- André Luís da Silva e Silva - DEV Team
+- Debora Conceição Faria – DEV Team
+- Gustavo da Silva Moura – DEV Team
+- Mariana de Souza Assis - DEV Team
+- Stephani Soares Junqueira - DEV Team
+- Vinicius Henrique dos Santos de Oliveira – Scrum Master
 
 ## Disciplinas Integradas
 - Arquitetura e Organização de Computadores - Prof. Antonio Wellington Sales Rios   
