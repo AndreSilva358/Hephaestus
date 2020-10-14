@@ -23,7 +23,7 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 - Inglês I  - Prof. Nilo Jeronimo Vieira
 -  Matemática Discreta  -  Prof.ª Renata Cristiane Fusverk da  Silva
 
-## Cards para as entregas
+## Cards para as Entregas
 Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 
 [Cards da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/1)
