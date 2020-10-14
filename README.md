@@ -36,7 +36,6 @@ Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 Distribuição das entregas.
 
 - [Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint%200)
-
 - [Entrega 2 – Sprint 1]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint-1)
 
 
