@@ -57,5 +57,4 @@ Produto de trabalho da fase de testes e planejamento do projeto.
 ## Ferramentas
 Ferramentas utilizadas até o presente momento.
 
-- [Draw.io]( https://app.diagrams.net/)
-**Ferramenta utilizada para o desenvolvimento do protótipo.**
+- [Draw.io]( https://app.diagrams.net/) - Desenvolvimento do protótipo.
