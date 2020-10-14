@@ -48,4 +48,7 @@ Distribuição das entregas.
 ## Protótipo da Página Inicial
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/P%C3%A1gina%20inicial.png?raw=true)
 
+## Ferramentas
+Ferramentas utilizadas até o presente momento.
 
+- [Draw.io]( https://app.diagrams.net/)
