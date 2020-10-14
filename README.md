@@ -32,3 +32,5 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 ## Protótipo da Página Inicial
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/P%C3%A1gina%20inicial.png?raw=true)
 
+
+[contributing](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/CONTRIBUTING.md)
