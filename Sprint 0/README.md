@@ -12,17 +12,23 @@ Nesta fase do projeto, nosso objetivo consiste em desenvolver e entregar o prot�
 
 ## Valores Entregues
 
-Concluímos o desenvolvimento do protótipo das páginas do site, utilizamos a ferramenta **Draw.io**. Elaboramos também o “Plano de Negócios”, diagrama “Caso de Uso”, mapa de páginas/fluxograma e as funcionalidades que estarão presentes no projeto final.
+Concluímos o desenvolvimento do protótipo das páginas do site, utilizamos a ferramenta **Draw.io**. Elaboramos também o “Plano de Negócios”, diagrama “Caso de uso”, mapa de páginas/fluxograma e as funcionalidades que estarão presentes no projeto final.
 
 ##  Protótipo da Página Inicial
+
+Produto de trabalho da fase de testes e planejamento do projeto.
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/P%C3%A1gina%20inicial.png?raw=true)
 
 ## Plano de Negócios
 
+O Plano de Negócios serve como ferramenta de orientação na busca de informações detalhadas sobre o ramo, produtos e serviços que o empreendimento irá oferecer.
+
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
 
 ## Diagrama "Caso de uso"
+
+O diagrama descreve a funcionalidade proposta para o sistema que está sendo projetado.
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
