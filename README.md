@@ -1,7 +1,7 @@
 
 
 # Projeto Integrador - Equipe Hephaestus
-Projeto sendo desenvolvido pelo 1º termo do curso de Análise e Desenvolvimento de Sistemas, FATEC de São José dos Campos/SP
+Projeto sendo desenvolvido pelo 1º termo do curso de Análise e Desenvolvimento de Sistemas, FATEC de São José dos Campos/SP.
 
 ## Objetivo
 Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados serão Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta.  Nosso site contará com algumas aplicabilidades essenciais para o administrador, como por exemplo, Relatório de Vendas, sendo possível sua visualização por gráficos, tornando a interpretação mais simplificada. Outras modificações também serão executáveis pelo administrador do site, como adicionar e remover conteúdos, visão ampla dos usuários, histórico de compras e quais formas de pagamento foram usadas etc. 
@@ -60,3 +60,4 @@ Produto de trabalho da fase de testes e planejamento do projeto.
 Ferramentas utilizadas até o presente momento.
 
 - [Draw.io]( https://app.diagrams.net/) - Desenvolvimento do protótipo.
+- **HTML** - Desenvolvimento das páginas do site.
