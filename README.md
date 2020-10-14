@@ -45,7 +45,7 @@ O Plano de Negócios serve como ferramenta de orientação na busca de informaç
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
 
 ## Diagrama "Caso de Uso"
-O diagrama de caso de uso descreve a funcionalidade proposta para um novo sistema que será projetado, é uma excelente ferramenta para o levantamento dos requisitos funcionais do sistema.
+O diagrama descreve a funcionalidade proposta para o sistema que está sendo projetado.
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
