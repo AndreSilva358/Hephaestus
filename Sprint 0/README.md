@@ -23,10 +23,10 @@ Concluímos o desenvolvimento do protótipo das páginas do site, utilizamos a f
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
 
-## Diagrama "Caso de Uso"
+## Diagrama "Caso de uso"
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
-## Personalização - Desconto para clientes
+## Personalização "Desconto para clientes"
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Promo%C3%A7%C3%A3o/Promo%C3%A7%C3%A3o.png?raw=true)
