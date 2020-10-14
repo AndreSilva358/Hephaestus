@@ -24,7 +24,8 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 -  Matemática Discreta  -  Prof.ª Renata Cristiane Fusverk da  Silva
 
 ## Cards para as entregas
-Aqui você pode acompanhar como foi e como está cada umas das entregas.
+Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
+
 [Cards da Entrega 1]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/1)
 
 ## Plano de Negócios
@@ -37,4 +38,3 @@ Aqui você pode acompanhar como foi e como está cada umas das entregas.
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/P%C3%A1gina%20inicial.png?raw=true)
 
 
-[contributing](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/CONTRIBUTING.md)
