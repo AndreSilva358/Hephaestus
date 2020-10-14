@@ -1,9 +1,11 @@
 #  Entrega 1 - Sprint 0
 
-#### Data: 27/09/2020
+### Data: 27/09/2020
 
-Na primeira Sprint, decidimos juntamente com a necessidade da empresa/cliente, a aplicação do seguinte card:
 
+Estabelecemos juntamente com a necessidade da empresa/cliente, a aplicação do seguinte card:
+
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Card%201.png?raw=true)
 
 
 ## Objetivo
@@ -26,7 +28,7 @@ Concluímos o desenvolvimento do protótipo das páginas do site, utilizamos a f
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
-## Mapa de Páginas/fluxograma
+## Mapa de Páginas
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Mapa%20de%20P%C3%A1ginas-2.png?raw=true)
 
