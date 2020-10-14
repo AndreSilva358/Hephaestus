@@ -1,4 +1,4 @@
-#  1ª Entrega (Sprint 0)
+#  Entrega 1 - Sprint 0
 
 ### Data: 27/09/2020
 - [x] Sprint 0 
