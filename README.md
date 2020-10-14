@@ -4,7 +4,7 @@
 
 Estabelecemos para esta entrega, a aplicação do seguinte card:
 
-![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%201/Sprint%201.png?raw=true)
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Sprint%201.png?raw=true)
 
 ## Objetivo
 
