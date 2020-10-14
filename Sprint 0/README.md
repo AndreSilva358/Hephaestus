@@ -8,8 +8,7 @@ Estabelecemos juntamente com a necessidade da empresa/cliente, a aplicação do 
 
 ## Objetivo
 
-Nesta fase do projeto, nosso objetivo consiste em entregar o protótipo de um site para comercialização de conteúdos didáticos, para tanto, inicialmente faremos um levantamento de requisitos, para que assim possamos suprir todos as necessidades de nosso cliente de maneira objetiva.
-Para atingir nossos objetivos utilizaremos a **Metodologia Scrum**. Além do esboço do site, entregaremos também o diagrama de "Caso de Uso", o fluxograma das páginas do site, o Plano de Negócios, bem como o planejamento para as futuras entregas. Desta forma, será possível a percepção de uma visão geral do nosso produto e de como faremos para entregá-lo em tempo hábil.
+Nesta fase do projeto, nosso objetivo consiste em entregar o protótipo de um site para comercialização de conteúdos didáticos, para tanto, inicialmente faremos um levantamento de requisitos, para que assim possamos suprir todos as necessidades de nosso cliente de maneira prática e lógica. Além do esboço do site, entregaremos também o diagrama de "Caso de uso", o fluxograma das páginas do site, o Plano de Negócios, bem como o planejamento para as futuras entregas. Desta forma, será possível a percepção de uma visão ampla de nosso produto e de como faremos para entregá-lo em tempo hábil.
 
 ## Valores Entregues
 
