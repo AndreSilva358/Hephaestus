@@ -19,9 +19,7 @@ Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e aprese
 
 Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para clientes das mais diversas faixas etária e que passasse de forma adequada e clara o conhecimento esperado, atraindo mais usuários pela metodologia exclusiva. Foi desenvolvido também em HTML os conteúdos e a home (página inicial).
 
-## Conteúdos em Texto
 
-[Língua Portuguesa: Pontuação e Concordância]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%201/L%C3%ADngua%20Portuguesa.pdf)
 
 
 
