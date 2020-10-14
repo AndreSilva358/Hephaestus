@@ -17,7 +17,7 @@ Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e aprese
 
 ## Valores Entregues
 
-Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para clientes das mais diversas faixas etária e que passasse de forma adequada e clara o conhecimento esperado.
+Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para clientes das mais diversas faixas etária e que passasse de forma adequada e clara o conhecimento esperado, atraindo mais usuários pela metodologia exclusiva.
 
 
 
