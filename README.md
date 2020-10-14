@@ -26,7 +26,16 @@ Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados
 ## Cards para as Entregas
 Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 
-[Cards da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/1)
+[Cards da Entrega 2 – Sprint 1]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/1)
+
+
+## Entregas
+Distribuição das entregas.
+
+- [Entrega 1]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint%200)
+
+- [Entrega 2]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint-1)
+
 
 ## Plano de Negócios
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
