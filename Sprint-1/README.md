@@ -1,4 +1,4 @@
-# Entrega 2 - Sprint 0
+# Entrega 2 - Sprint 1
 
 ### Data: 17/10/2020
 
