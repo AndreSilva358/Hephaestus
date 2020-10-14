@@ -2,6 +2,8 @@
 
 ### Data: 17/10/2020
 
+Estabelecemos para esta entrega, a aplicação do seguinte card:
+
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%201/Sprint%201.png?raw=true)
 
 ## Objetivo
