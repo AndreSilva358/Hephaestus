@@ -35,8 +35,8 @@ Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 ## Entregas
 As sprints do projeto estão distribuídas em 4 entregas que serão feitas ao longo do semestre.
 
-- [Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint%200)
-- [Entrega 2 – Sprint 1]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint%201)
+- [Entrega 1 – Sprint 0](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0)
+- [Entrega 2 – Sprint 1](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1)
 
 
 ## Plano de Negócios
