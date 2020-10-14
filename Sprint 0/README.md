@@ -2,7 +2,7 @@
 
 ### Data: 27/09/2020
 
-**- [x] Sprint 0**
+- [x] Sprint 0
 
 ## Objetivo
 
