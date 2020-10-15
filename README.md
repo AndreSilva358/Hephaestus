@@ -4,7 +4,7 @@
 
 Estabelecemos para esta entrega, a aplicação do seguinte card:
 
-![]()
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Sprint%201.png?raw=true)
 
 ## Cards para as Entregas
 
@@ -32,14 +32,13 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 ## Conteúdos em HTML
 
 
-
 ## Conteúdos em Texto
 
 - [Arquitetura e Organização de Computadores]()
 
-- [Laboratório de Hardware]()
+- [Laboratório de Hardware](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Laborat%C3%B3rio%20de%20Hardware.pdf)
 
-- [Língua Inglesa]()
+- [Língua Inglesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Inglesa.pdf)
 
 - [Língua Portuguesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Portuguesa.pdf)
 
