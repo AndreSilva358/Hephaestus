@@ -8,6 +8,8 @@ Estabelecemos juntamente com a necessidade do cliente, a aplicação do seguinte
 
 ## Sprint Backlog
 
+Lista de tarefas da sprint.
+
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/sprints_backlog_page-0001.jpg)
 
 ## Cards para as Entregas
