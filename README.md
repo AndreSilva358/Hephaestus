@@ -30,3 +30,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 - Desenvolvemos as páginas dos conteúdos em HTML.
 - E a Home (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência do andamento do projeto.
 
+## Conteúdos em Texto
+
+[Língua Portuguesa]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint%200)
+
