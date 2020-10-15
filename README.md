@@ -32,5 +32,5 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ## Conteúdos em Texto
 
-[Língua Portuguesa]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0/Sprint%200)
+[Língua Portuguesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Portuguesa.pdf)
 
