@@ -1,7 +1,7 @@
-#  Entrega 1 - Sprint 0
+# Projeto Integrador - Equipe Hephaestus
 
-### Data: 27/09/2020
-
+## Entrega 1 - Sprint 0
+- **Data: 27/09/2020**
 
 Estabelecemos juntamente com a necessidade da empresa/cliente, a aplicação do seguinte card:
 
