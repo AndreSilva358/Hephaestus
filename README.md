@@ -2,7 +2,7 @@
 
 ## Entrega 2 - Sprint 1 
 
-Estabelecemos para esta entrega, a aplicação do seguinte card:
+Estabelecemos para esta entrega, a aplicação do seguinte card.
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Card-2.png)
 
