@@ -1,11 +1,12 @@
 # Projeto Integrador - Equipe Hephaestus
 
 ## Entrega 1 - Sprint 0
-- **Data: 27/09/2020**
 
 Estabelecemos juntamente com a necessidade da empresa/cliente, a aplicação do seguinte card:
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Sprint%200.png?raw=true)
+
+- [Cards da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/2) - **Data: 27/09/2020**
 
 ## Objetivo
 
