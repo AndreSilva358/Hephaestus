@@ -4,7 +4,7 @@
 
 Estabelecemos para esta entrega, a aplicação do seguinte card:
 
-![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Sprint%201.png?raw=true)
+
 
 ## Cards para as Entregas
 
@@ -27,7 +27,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 ## Valores Entregues
 
 - Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etária, e que passasse de forma clara e adequada o conhecimento esperado, atraindo assim um número significativo de usuários. 
-- Desenvolvemos as páginas dos conteúdos em HTML.
+- Desenvolvemos parcialmente as páginas dos conteúdos em HTML.
 - E a Home (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência do andamento do projeto.
 
 ## Conteúdos em Texto
