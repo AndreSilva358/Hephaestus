@@ -6,6 +6,10 @@ Estabelecemos para esta entrega, a aplicação do seguinte card:
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Sprint%201.png?raw=true)
 
+## Sprint Backlog
+
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/sprints_backlog_page-0002.jpg)
+
 ## Cards para as Entregas
 
 Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
