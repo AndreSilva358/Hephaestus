@@ -1,4 +1,6 @@
-# Entrega 2 - Sprint 1
+# Projeto Integrador - Equique Hephaestus
+
+# Entrega 2 - Sprint 1 
 
 ### Data: 17/10/2020
 
