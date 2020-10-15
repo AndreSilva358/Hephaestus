@@ -23,9 +23,9 @@ Nesta fase do projeto, nosso objetivo consiste em desenvolver e entregar o prot�
 ## Valores Entregues
 
 - Concluímos o desenvolvimento do protótipo das páginas do site, utilizando a ferramenta [Draw.io]( https://app.diagrams.net/).
-- “Plano de Negócios”.
+- Plano de Negócios.
 - Diagrama “Caso de uso". 
-- Mapa de páginas/fluxograma.
+- Mapa de páginas/fluxograma do site.
 - E funcionalidades que estarão presentes no projeto final.
 
 ##  Protótipo da Página Inicial
