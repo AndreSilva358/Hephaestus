@@ -4,7 +4,7 @@ Projeto sendo desenvolvido pelo 1º termo do curso de Análise e Desenvolvimento
 ## Objetivo
 Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados serão Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta.  
 Nosso site contará com algumas aplicabilidades essenciais para o administrador, por exemplo, Relatório de Vendas, sendo possível sua visualização por gráficos, tornando a interpretação mais simplificada. Outras modificações também serão executáveis pelo administrador do site, como adicionar e remover conteúdos, visão ampla dos usuários, histórico de compras, quais formas de pagamento foram utilizadas etc. 
-Nossa meta é entregar um site com capacidade de crescimento, atraindo usuários das mais diversas áreas e tornando a marca de nosso cliente referência no mercado acadêmico.
+- **Nossa meta é entregar um site com capacidade de crescimento, atraindo usuários das mais diversas áreas e tornando a marca de nosso cliente referência no mercado acadêmico.**
 
 ## Integrantes
 - André Luís da Silva e Silva - DEV Team
@@ -45,11 +45,6 @@ Lista contendo todas as funcionalidades desejadas para o projeto.
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/p_backlog_page-0001.jpg)
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/p_backlog_page-0002.jpg)
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/p_backlog_page-0003.jpg)
-
-## Plano de Negócios
-O Plano de Negócios serve como ferramenta de orientação na busca de informações detalhadas sobre o ramo, produtos e serviços que o empreendimento irá oferecer.
-
-![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Plano%20de%20Neg%C3%B3cio.png?raw=true)
 
 ## Diagrama "Caso de Uso"
 O diagrama descreve a funcionalidade proposta para o sistema que está sendo projetado.
