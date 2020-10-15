@@ -17,7 +17,7 @@ Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 
 ## Objetivo
 
-Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e apresentar os conteúdos de Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta com exercícios e testes em formato de texto. Além dos conteúdos em texto, entregaremos os mesmos em HTML, assim como a home (página inicial) neste mesmo formato.
+Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e apresentar os conteúdos de Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta com exercícios e testes em formato de texto. Além dos conteúdos em texto, entregaremos parcialmente os mesmos em HTML, assim como a home (página inicial) neste mesmo formato.
 
 ## Aplicação
 
