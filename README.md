@@ -4,7 +4,7 @@ Projeto sendo desenvolvido pelo 1º termo do curso de Análise e Desenvolvimento
 ## Objetivo
 Desenvolver um site para venda de conteúdos didáticos. Os conteúdos abordados serão Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta.  
 Nosso site contará com algumas aplicabilidades essenciais para o administrador, por exemplo, Relatório de Vendas, sendo possível sua visualização por gráficos, tornando a interpretação mais simplificada. Outras modificações também serão executáveis pelo administrador do site, como adicionar e remover conteúdos, visão ampla dos usuários, histórico de compras, quais formas de pagamento foram utilizadas etc. 
-**Nossa meta é entregar um site com capacidade de crescimento, atraindo usuários das mais diversas áreas e tornando a marca de nosso cliente referência no mercado acadêmico.**
+Nossa meta é entregar um site com capacidade de crescimento, atraindo usuários das mais diversas áreas e tornando a marca de nosso cliente referência no mercado acadêmico.
 
 ## Integrantes
 - André Luís da Silva e Silva - DEV Team
