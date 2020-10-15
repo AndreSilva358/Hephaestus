@@ -37,6 +37,12 @@ As sprints do projeto estão distribuídas em 4 entregas que serão feitas ao lo
 - [Entrega 1 – Sprint 0](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-0)
 - [Entrega 2 – Sprint 1](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1)
 
+## Product Backlog
+Lista contendo todas as funcionalidades desejadas para o projeto.
+
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/p_backlog_page-0001.jpg)
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/p_backlog_page-0002.jpg)
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/p_backlog_page-0003.jpg)
 
 ## Plano de Negócios
 O Plano de Negócios serve como ferramenta de orientação na busca de informações detalhadas sobre o ramo, produtos e serviços que o empreendimento irá oferecer.
