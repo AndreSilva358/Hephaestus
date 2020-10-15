@@ -12,10 +12,12 @@ Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e aprese
 
 ## Aplicação
 
-(colocar o backlog da sprint com base na priorização)
+
 
 
 ## Valores Entregues
 
-Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etária, e que passasse de forma adequada e clara o conhecimento esperado, atraindo um número significativo de usuários. Desenvolvemos as páginas dos conteúdos e a home (página inicial) em HTML.
+- Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etária, e que passasse de forma adequada e clara o conhecimento esperado, atraindo um número significativo de usuários. 
+- Desenvolvemos as páginas dos conteúdos em HTML.
+- E a Home (página inicial) em HTML.
 
