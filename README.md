@@ -4,7 +4,7 @@
 
 Estabelecemos juntamente com a necessidade do cliente, a aplicação do seguinte card:
 
-![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Sprint%200.png?raw=true)
+![]()
 
 ## Sprint Backlog
 
