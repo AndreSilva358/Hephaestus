@@ -6,6 +6,10 @@ Estabelecemos juntamente com a necessidade do cliente, a aplicação do seguinte
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Sprint%200.png?raw=true)
 
+## Cards para as Entregas
+
+Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
+
 - [Cards da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/2) - **Data: 27/09/2020**
 - [Cards da Entrega 2 – Sprint 1]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/1) - **Data: 17/10/2020**
 - [Cards da Entrega 3 – Sprint 2]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/3) - **Data: 08/11/2020**
