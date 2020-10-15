@@ -16,6 +16,11 @@ Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 - [Cards da Entrega 3 – Sprint 2]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/3) - **Data: 08/11/2020**
 - [Cards da Entrega 4 – Sprint 3](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/4) - **Data: 29/11/2020**
 
+## Sprint Backlog
+
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/sprints_backlog_page-0001.jpg)
+
+
 ## Objetivo
 
 Nesta fase do projeto, nosso objetivo consiste em desenvolver e entregar o protótipo de um site para comercialização de conteúdos didáticos, para tanto, inicialmente faremos um levantamento de requisitos, para que assim, possamos suprir todas as necessidades de nosso cliente de maneira prática e lógica. Além do esboço do site, entregaremos também o diagrama de "Caso de uso", fluxograma das páginas do site, Plano de Negócios, bem como o planejamento para as futuras entregas. Desta forma, será possível a percepção de uma visão ampla de nosso produto e de como faremos para entregá-lo em tempo hábil.
