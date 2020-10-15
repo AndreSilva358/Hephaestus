@@ -2,7 +2,7 @@
 
 ## Entrega 2 - Sprint 1 
 
-**Data: 17/10/2020**
+- **Data: 17/10/2020**
 
 Estabelecemos para esta entrega, a aplicação do seguinte card:
 
