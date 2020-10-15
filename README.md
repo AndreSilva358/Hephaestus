@@ -23,12 +23,15 @@ Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e aprese
 
 Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção de páginas na Web, será a linguagem utilizada para o desenvolvimento do projeto.
 
-
 ## Valores Entregues
 
 - Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etária, e que passasse de forma clara e adequada o conhecimento esperado, atraindo assim um número significativo de usuários. 
 - Desenvolvemos parcialmente as páginas dos conteúdos em HTML.
 - E a Home (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência do andamento do projeto.
+
+## Conteúdos em HTML
+
+
 
 ## Conteúdos em Texto
 
