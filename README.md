@@ -4,9 +4,9 @@
 
 Estabelecemos juntamente com a necessidade do cliente, a aplicação do seguinte card:
 
-- [Card da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/2) - **Data: 27/09/2020**
-
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Sprint%200.png?raw=true)
+
+- [Card da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/2) - **Data: 27/09/2020**
 
 ## Objetivo
 
