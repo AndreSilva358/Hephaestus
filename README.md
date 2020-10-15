@@ -2,7 +2,7 @@
 
 ## Entrega 1 - Sprint 0
 
-Estabelecemos juntamente com a necessidade da empresa/cliente, a aplicação do seguinte card:
+Estabelecemos juntamente com a necessidade do cliente, a aplicação do seguinte card:
 
 - [Card da Entrega 1 – Sprint 0]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/projects/2) - **Data: 27/09/2020**
 
