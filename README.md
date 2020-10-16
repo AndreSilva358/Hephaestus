@@ -41,6 +41,11 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ## Conteúdos em HTML
 
+- **Lógica de Programação**
+![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/algo_pag01.gif)
+
+- **Arquitetura e Organização de Computadores**
+![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/arc_org_pag01.gif)
 
 ## Conteúdos em Texto
 
