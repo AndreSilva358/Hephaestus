@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+ 
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Lógica de Programação</title>
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <!-- Aqui começa o conteúdo -->
+          <div>
+            <h2>Capítulo 5 - Relações Condicionais</h2>
+            <br/>
+            <p>As Relações condicionais são baseadas nos comandos de decisão os quais são utilizados para direcionar o fluxo de sua execução. Se determinada condição for satisfeita pelo comando <mark class="orange">if</mark> (se) então execute determinado comando, pode-se adicionar outras possibilidades a serem satisfeitas com o comando <mark class="orange">elif</mark>, e para todos os outros casos utilize else.</p>
+            <br/>
+            <br/>
+                        
+            <div>
+              <h5>Comando de Seleção IF</h5>
+              <br/>
+              <p>O comando <mark class="orange">if</mark> serve para selecionar que parte de um código será executado. </p>
+              <p>O exemplo a seguir avalia se um aluno está aprovado na matéria ou não, sabendo que a média para aprovação é 6.0.</p>
+              <br/>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_049.png><br/>
+              <br/>
+              <p>Testando o código acima com valores de 0 a 10, temos:</p>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_050.png><br/>
+              <br/>
+              <br/>
+              <p>No código implementado no editor note que foi adicionado um <b>TAB</b> ao comando que está na linha imediatamente após cada <mark class="orange">if</mark>, o que é obrigatório em Python e denomina-se <b>identação</b>. Se o autor do script não incluir esse <b>TAB</b> um erro ocorrerá. Verifique a ocorrência desse erro no script a seguir.</p>
+              <img src=images/Log_Prog/Py_051.png><br/>
+              <br/>
+              <p>A linha assinalada em vermelho não contém um TAB no seu início, deixando o comando <mark class="orange">if</mark> sem nenhum bloco de instrução, o que ocasiona um erro na execução.</p>
+              <br/>
+              <br/> 
+            </div>
+
+            <div>
+              <h5>Comando de Seleção IF-ELSE </h5>
+              <br/>
+              <p>Para evitar uma sequência longa de <mark class="orange">if</mark>s é possível agregar o comando <mark class="orange">else</mark> a um comando <mark class="orange">if</mark>. Desta forma, o programa que avalia a aprovação ou não do aluno, pode ser escrito de uma maneira mais “limpa”, obtendo a mesma saída, conforme mostrado abaixo.</p>
+              <img src=images/Log_Prog/Py_052.png><br/>
+              <br/>
+              <br/>
+              <p>Importante salientar que as linhas dos comandos <mark class="orange">if</mark> e <mark class="orange">else</mark> marcadas em laranja devem ser terminadas pelo sinal de <b>dois-pontos</b>.</p>
+              <br/>
+              <br/>
+            </div>
+
+            <div>
+              <h5>Blocos de Comandos</h5>
+              <br/>
+              <p>As linhas de comando de <mark class="orange">if</mark> / <mark class="orange">else</mark>, terminadas pelo símbolo dois pontos “:”, delimitam o início de uma estrutura denominada bloco.</p>
+              <p>Esta estrutura é usada quando é preciso "separar" um ou mais comandos, de outro grupo de comandos do código.</p>
+              <p>No exemplos acima e abaixo, o que se deseja é separar o bloco que será executado no <mark class="orange">if</mark>, daquele bloco que será executado no <mark class="orange">else</mark> e daqueles comandos serão executados fora do <mark class="orange">if</mark>/<mark class="orange">else</mark>.</p>
+              <p>Além do símbolo dois-pontos no final da linha, deve-se colocar todos os comandos que pertencem a um mesmo bloco deslocados/alinhados à direita, usando a tecla <b>TAB</b>. </p>
+              <p>No exemplo a seguir, o bloco do <mark class="orange">if</mark> possui dois comandos, já o bloco do <mark class="orange">else</mark>, três.</p>
+              
+              <br/>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_053.png><br/>
+              <br/>
+              <p>Testando o código acima com valores 10 e 19, temos:</p>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_054.png><br/>
+              <br/>
+              <br/>
+            </div>
+
+            <div>
+              <h5>Aninhamento de IFs</h5>
+              <br/>
+              <p>Quando é preciso refinar uma condição, tomando uma decisão depois que outra já foi tomada, usa-se o aninhamento de <mark class="orange">if</mark>s. </p>              
+              <p>No exemplo o aluno precisa tirar uma nota 6 no mínimo para ser aprovado.</p>
+              <br/>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_055.png><br/>
+              <br/>
+              <p>Testando o código acima com valores de 0 a 10, temos:</p>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_056.png><br/>
+              <br/>
+              <br/>
+            </div>
+
+            <div>
+              <h5>Comando ELIF</h5>
+              <br/>
+              <p>Quando for necessário fazer um novo teste após um <mark class="orange">else</mark>, como no exemplo anterior, é possível simplificar o comando usando um <mark class="orange">elif</mark>.</p>              
+              <p>O trecho apresentado a seguir classifica uma pessoa de acordo sua idade as classificações definidas estão citadas abaixo:</p>
+              <ul>
+                <li>0-1: Bebê</li>
+                <li>2-13: Criança</li>
+                <li>14-18: Adolescente</li>
+                <li>18-59: Adulto</li>
+                <li>&lt;=60: Idoso</li>
+              </ul>
+              <br/>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_057.png><br/>
+              <br/>
+              <p>Testando o código acima com valores 1, 2, 14, 18 e 67 temos:</p>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_058.png><br/>
+              <br/>
+              <br/>
+              <p>Para evitar o deslocamento excessivo de blocos à direita, como ocorre no exemplo acima, é possível usar o comando <mark class="orange">elif</mark>.</p>
+              <p>Desta forma, todos os <mark class="orange">elif</mark>s ficam alinhados com o primeiro <mark class="orange">if</mark>. O <mark class="orange">else</mark> do final, é executado caso nenhuma das condições anteriores sejam verdadeiras.</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_059.png><br/>
+              <br/>
+              <p>Testando o código acima com valores 1, 2, 14, 18 e 67 temos exatamente as mesmas saídas que no programa anterior.</p>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_060.png><br/>
+              <br/>
+              <br/>
+            </div>            
+            <br/>
+            <br/>
+          </div>
+
+          <div>
+            <h1>Teste</h1><br/>
+            <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">                
+              <div class="">Qual das seguintes linhas de comando utilizando <mark class="orange">if</mark> irá gerar um erro quando executada?</div><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> <img src=images/Log_Prog/Py_061.png><br/><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> <img src=images/Log_Prog/Py_062.png><br/><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> <img src=images/Log_Prog/Py_063.png><br/><br/>
+              <input id="answer" type="radio" name="grupo1" value="certo"> <img src=images/Log_Prog/Py_064.png><br/><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Nenhuma das opções irá gerar um erro.<hr>
+
+              <button class="submit btn btn-success my-2 my-sm-0" onclick="return handleClick();" type="submit">Enviar</button>
+
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_01_LogProg_c04.html'">Página Anterior</a></button>
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_01_LogProg_c06.html'">Próxima Página</a></button>
+              
+            </form>
+
+            <script>
+              function handleClick()
+              {         
+              var amountCorrect = 0;          
+              for(var i = 1; i <= 45; i++) {
+                var radios = document.getElementsByName('grupo'+i);
+                for(var j = 0; j < radios.length; j++) {
+                  var radio = radios[j];
+                  if(radio.value == "certo" && radio.checked) {
+                    amountCorrect++;
+                    }
+                  }
+                }                   
+              if(amountCorrect == 1) {
+                alert("Parabéns você acertou! Está mestre em programação!");
+                }
+              else {
+                //alert("Respostas Corretas: " + amountCorrect + " de 1");
+                alert("Você errou :/... Não desanime! Tente novamente!");
+                }
+              
+              }
+            </script>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>
+

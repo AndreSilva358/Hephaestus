@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+ 
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Lógica de Programação</title>
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <!-- Aqui começa o conteúdo -->
+          <div>
+            <h2>Capítulo 6 - Iterações</h2>
+            <br/>
+            <p>Iterar significa uma ação de repetir algo. Em linguagem de programação, iteração significa repetir de um conjunto de instruções por uma quantidade finita de vezes ou, enquanto uma condição seja aceita.</p>
+            <ul>
+              <li>Iteração</li>
+              <li>Estrutura de Repetição</li>
+              <li>Looping</li>
+              <li>Laço</li>
+              <li>Repetição</li>
+            </ul>
+            <p>Todos as nomenclaturas citadas acima são utilizadas descrever as estruturas das linguagens que tem o propósito de repetir um mesmo bloco de código, por uma quantidade finita de vezes, ou enquanto uma condição for verdadeira.</p>
+            <p>Em Python temos algumas ferramentas para implementar essa estrutura, dentre elas, as mais utilizadas são:</p>
+            <ul>
+              <li>Comando <mark class="orange">for</mark></li>
+              <li>Comando <mark class="orange">while</mark></li>
+              <li>Recursividade</li>
+            </ul>
+            <p>A seguir apresentaremos um exemplo onde há a necessidade de implementarmos uma iteração, que se não utilizássemos seria um código “estático” que só serviria pra um tipo de input.</p>
+            <p>Vamos supor que temos um mercadinho e nele vendemos 4 itens com os preços listados abaixo:</p>
+            <ul>
+              <li>R$ 13,00</li>
+              <li>R$ 14,00</li>
+              <li>R$ 16,00</li>
+              <li>R$ 11,00</li>
+            </ul>
+            <p>Agora, vamos supor que necessitados aplicar a correção da inflação sobre esses preços e que o índice IPCA neste período foi de 10%.</p>
+            <p>Sem utilizarmos iterações, um código para realizar a operação descrita ficaria da seguinte forma:</p>
+            <br/>
+            <a class="dark_blue">Código – Editor:</a><br/>
+            <img src=images/Log_Prog/Py_065.png><br/>
+            <br/>
+            <a class="dark_blue">Saída:</a><br/>
+            <img src=images/Log_Prog/Py_066.png><br/>
+            <br/>
+            <br/>                        
+            <div>
+              <h5>Utilizando “for”</h5>
+              <br/>
+              <p>Vamos agora imaginar que nosso mercadinho está indo “de vento em poupas” e depois de um ano estamos vendendo 100 produtos e é a hora de utilizarmos nosso programa novamente para atualizar o preço dos produtos de acordo com o IPCA.</p>
+              <p>Note que da maneira que formulamos nosso código acima, realizar as operações com os cem produtos ficaria algo lusitano, sem falar que seria um código “feio”. A solução para esse problema   é a implementação de iterações. Em que, um bloco de comando irá repetir a mesma operação para cada um dos valores de uma lista, conforme apresentado no programa abaixo.</p>
+              <br/>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_067.png><br/>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_068.png><br/>
+              <br/>
+              <br/>
+              <p>No código acima verifique a utilização do comando <mark class="orange">for</mark>, em que, para cada valor de “i” em um <mark class="purple">range</mark> (intervalo) de 0 a 99, <mark class="purple">“range(100)”</mark>, serão executadas todas as linhas de comando que estão identadas abaixo do <mark class="orange">for</mark>. Note que análogo ao apresentado no Capítulo anterior para <mark class="orange">if</mark>, para separar os blocos de instruções é também utilizado o <b>TAB</b> (identação).</p>
+              <p>Há ainda mais uma melhoria que pode ser implementada no código acima de forma a permitir que o número de produtos na lista seja “dinâmico”, ou seja, sem a necessidade de saber quantos produtos temos em nossa lista, deixemos que o próprio programa descubra essa informação, e desta forma script funciona para qualquer tamanho de lista inserido.</p>
+              <br/>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_069.png><br/>
+              <br/>
+              <br/>
+              <p>A saída deste código é exatamente a mesma que a anterior, mas note que agora não foi necessário inserir que a nossa lista tem 100 itens, uma vez que o comando <mark class="purple">len(preço)</mark> estima esse valor para nós.</p>
+              <br/> 
+            </div>
+
+            <div>
+              <h5>Utilizando “while” </h5>
+              <br/>
+              <p>No código a seguir, temos o mesmo código implementado acima utilizando a estrutura de repetição <mark class="orange">while</mark>, que numa tradução livre, significa, <b>enquanto</b>.</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_070.png><br/>
+              <br/>
+              <br/>
+              <p>Essa é apenas mais uma das maneiras de escrever um código com a mesma saída, pois a saída deste código é exatamente a mesma que a anterior. É importante ressaltarmos alguns pontos deste código para um melhor entendimento:.</p>
+              <ul>
+                <li>Na estrutura <mark class="orange">while</mark> inserimos um contador (variável “count”) para manter controle de qual item da lista estamos em nosso script;</li>
+                <li>Utilizamos a condição <mark class="orange">while(True)</mark>, que deve ser acompanhada de alguma condição de parada <mark class="orange">break</mark> que no caso a condição foi quando o contador atingir o número de itens de nossa lista de preços “<mark class="orange">if</mark> count >= <mark class="purple">len</mark>(preços)”;</li>
+                <li>caso não colocássemos essa condição de parada <mark class="orange">break</mark>, o programa entraria em um loop infinito.</li>
+              </ul>
+              <p>Outra maneira de escrevermos esse mesmo código utilizando o comando <mark class="orange">while</mark> é inserindo a condição de parada na mesma linha do comando, assim, não é necessário acrescentar o <mark class="orange">break</mark>, conforme apresentado a seguir:</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_071.png><br/>
+              <br/>
+              <br/>
+              <p>A saída, mais uma vez é exatamente a mesma apresentada anteriormente.</p>
+              <p>Outro ponto interessante a ressaltar é que no programa acima incrementamos o contador utilizando a forma concisa de escrever, então a linha de comando “count = count +1” significa exatamente a mesma coisa que “count += 1”.</p>
+              <br/>
+              <br/>
+            </div>
+
+            <div>
+              <h5>Utilizando Recursividade</h5>
+              <br/>
+              <p>Recursividade significa a invocação de uma função por ela mesma, ou seja, é toda função que invoca a si mesma. A grande vantagem desta prática é o tempo gasto para executar um programa, que normalmente é menor que as outras estruturas de repetição.</p>
+              <p>Mas essa é uma prática perigosa de trabalho, principalmente para programadores menos experientes, pois pode facilmente travar nossos programas, ou então, estourar a pilha de execução, isto é, podemos obter o famoso erro <b> stack overflow error</b> que, nada mais é do que o limite máximo de vezes que uma função pode chamar a si mesma.</p>
+              <p>Primeiramente iremos fornecer uma pequena explicação sobre a implementação de funções em Python, elas são estruturadas pela seguinte linha de comando:</p>
+              <br/>
+              <img src=images/Log_Prog/Py_072.png><br/>
+              <br/>
+              <p>Em que são definidos o nome da função e os inputs da função entre parênteses. De maneira análoga ao <mark class="orange">for</mark>, <mark class="orange">while</mark> e <mark class="orange">if</mark> é necessário incluir <b>TAB</b> para todos os comandos a serem executados pela função.</p>
+              <p>Abaixo é presentado um programa para resolver o mesmo problema tratado anteriormente utilizando-se recursividade.</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_073.png><br/>
+              <br/>
+              <p>A saída deste programa continua sendo a mesma saída apresentada anteriormente.</p>
+              <p>No programa acima vimos a implementação de 2 funções a primeira é a função principal <mark class="blue">main()</mark>, em que são incluídas a lista de preços, valor de IPCA bem como o contador, e por último, mas não menos importante, nela é chamada a função <mark class="blue">preços_IPCA()</mark>. Na função principal não há nenhum input como entrada, já na outra função, há 3 inputs, são eles: a lista de preços, o valor do IPCA e o valor do contador.</p>
+              <p>Ao analisar dentro da função <mark class="blue">preços_IPCA()</mark> vimos que ela calcula o valor do preço atualizado para o IPCA e após verificar a condição de parada, chama ela mesmo novamente, o que ocasiona um laço, sem a necessidade de implementação nem dos comando <mark class="orange">for</mark> e nem <mark class="orange">while</mark>.</p>
+              <p>Após o entendimento e aplicação dos conceitos apresentados neste conteúdo, você já está pronto para se tornar um programador de sucesso. Mas lembre-se a experiência e a prática destes conceitos são fundamentais neste caminho.</p>
+              <br/>
+              <br/>
+            </div>
+            <br/>
+            <br/>            
+          </div>
+
+          <div>
+            <h1>Teste</h1><br/>
+            <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">                
+              <div class="">O programa a seguir pode conter um erro de sintaxe em Python, qual das opções abaixo identifica esse erro?</div><br/>
+              <img src=images/Log_Prog/Py_074.png><br/><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Falta “;” na definição das variáveis<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Deve-se remover o TAB nas duas linhas de comando após o comando "for"<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Está faltando parênteses na linha de comando do “for”<br/>
+              <input id="answer" type="radio" name="grupo1" value="certo"> A lista, variável “preços” deve ter seus itens separados por “;” ao invés de “,”<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Não há erros neste código.<hr>
+
+              <button class="submit btn btn-success my-2 my-sm-0" onclick="return handleClick();" type="submit">Enviar</button>
+
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_01_LogProg_c05.html'">Página Anterior</a></button>
+              
+            </form>
+
+            <script>
+              function handleClick()
+              {         
+              var amountCorrect = 0;          
+              for(var i = 1; i <= 45; i++) {
+                var radios = document.getElementsByName('grupo'+i);
+                for(var j = 0; j < radios.length; j++) {
+                  var radio = radios[j];
+                  if(radio.value == "certo" && radio.checked) {
+                    amountCorrect++;
+                    }
+                  }
+                }                   
+              if(amountCorrect == 1) {
+                alert("Parabéns você acertou! Está mestre em programação!");
+                }
+              else {
+                //alert("Respostas Corretas: " + amountCorrect + " de 1");
+                alert("Você errou :/... Não desanime! Tente novamente!");
+                }
+              
+              }
+            </script>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>
+

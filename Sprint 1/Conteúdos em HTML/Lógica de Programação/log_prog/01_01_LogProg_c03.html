@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+ 
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Lógica de Programação</title>
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <!-- Aqui começa o conteúdo -->
+          <div>
+            <h2>Capítulo 3 - Tipos de Variáveis</h2>
+            <br/>
+            <p>Uma variável é um espaço reservado na memória do computador para armazenar um tipo de dado determinado. Variáveis devem receber nomes para poderem ser referenciadas e modificadas quando necessário. Um programa deve conter declarações que especificam de que tipo são as variáveis que ele utilizará e as vezes um valor inicial. Tipos podem ser por exemplo: inteiros, reais, caracteres, etc. As expressões combinam variáveis e constantes para calcular novos valores.</p>
+            <p>Nesta seção serão discutidos os tipos de variáveis em Python. Uma maneira de categorizar esses tipos básicos de variáveis é apresentada abaixo nesses 4 grupos:</p>
+            
+            <ul>
+              <li><b>Numérico</b>: <mark class="red">int</mark> (inteiro), float (ponto flutuante)</li>
+              <li><b>Texto</b>: <mark class="red">str</mark> (string)</li>
+              <li><b>Sequencia</b>: <mark class="red">list</mark> (listas, podem ser vetores ou matrizes)</li>
+              <li><b>Booleana</b>: <mark class="red">bool</mark>, <mark class="red">True</mark> (verdadeiro) ou <mark class="red">False</mark> (falso)</li>
+              <li><b>Dicionário</b>: <mark class="red">dict</mark> (dicionário, composto por chave e valor)</li>
+            </ul>
+            
+            <p>É importante frisar que em Python não é necessário o desenvolvedor especificar qual o tipo de variável será utilizada, o próprio Python irá vincular o tipo de variável. Diferente de outras Linguagens de mais baixo nível como C++ ou Fortran onde é necessário especificar o tipo de variável.</p>
+            <p>Outro ponto igualmente importante a se ressaltar é que Python é uma linguagem de programação “fracamente tipada”, o quê significa que a variável pode mudar seu tipo ao longo da execução do script. Ao contrário do que ocorre em linguagens “fortemente tipadas” como C++ e Java.</p>
+            <p>Então alguma variável que era inicialmente numérica, do tipo <mark class="red">int</mark>, por exemplo, pode facilmente tornar-se uma variável do tipo string, basta vinculá-la ao tipo <mark class="red">str</mark>. No exemplo apresentado no Capítulo 1, nota-se que o inverso desse exemplo é apresentado, em que uma variável do tipo <mark class="red">str</mark> (todo “input” é inicialmente do tipo <mark class="red">str</mark>) é transformada no tipo numérico utilizando o comando <mark class="purple">int()</mark>. Conforme esquematizado abaixo:</p>
+
+            <img src=images/Log_Prog/Py_003.png><br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+
+          <div>
+            <h5>Variáveis numéricas</h5>
+            <br/>
+            <p>Esses tipos de dados são bem definidos e representam valores numéricos. Esses valores podem ser valores inteiros, valores racionais ou até números complexos. Nas seções subsequentes serão detalhados os dois primeiros tipos.</p>
+            <br/>
+            <br/>
+            <div>
+              <h6>Variáveis do tipo Inteiro - <b class="red">int</b></h6>
+              <br/>
+              <p>O tipo <mark class="red">int</mark> lida com valores inteiros. Isso significa que esse tipo representa valores como 0, 1, -5 e -10, e não números como 0.4, 3.02, -12.8, etc.</p>
+              <p>Em Python, o código a seguir irá concluir que a é um inteiro e irá vincular o tipo <mark class="red">int</mark> ao tipo do dado.</p>
+              <img src=images/Log_Prog/Py_004.png><br/>
+              <br/>
+              <br/>
+              <p>Nós poderíamos ser mais específicos, com a função <mark class="purple">int()</mark>, para garantir que o Python entendeu nosso 5 como número inteiro:</p>
+              <img src=images/Log_Prog/Py_005.png><br/>
+              <br/>
+              <br/>
+              <p>O Python trata qualquer sequência de números (sem prefixos) como um número decimal. E o valor desse inteiro, é “sem limites”. Diferente de outras linguagens como Java ou C++, o valor de uma variável do tipo <mark class="red">int</mark> não tem um valor máximo.</p>
+              <p>O <i>sys.maxsize</i> pode soar contra-intuitivo, se for pensado como o máximo valor que um inteiro pode ter, pois em Python não é.</p>
+              <img src=images/Log_Prog/Py_006.png><br/>
+              <br/>
+              <br/>
+              <p>Nota-se que obtemos um valor inteiro binário de 32-bit, mas veremos o que ocorre se vincularmos um valor maior que este a "x":</p>
+              <img src=images/Log_Prog/Py_007.png><br/>
+              <br/>
+              <br/>
+              <p>Na verdade, nós conseguimos ir ainda mais longe:</p>
+              <img src=images/Log_Prog/Py_008.png><br/>
+              <br/>
+              <br/>
+              <p>O único limite real para quão grande um inteiro pode ser em Python, é a memória da máquina em que o código está sendo executado.</p>
+              <br/>
+              <br/>
+            </div>
+            
+            <div>
+              <h6>Variáveis do tipo ponto flutuante - <b class="red">float</b></h6>
+              <br/>
+              <p>Esse tipo de variável pode representar números decimais com até 15 casas decimais. O que significa que ele consegue representar números como: 0.3, 2.9, 9.4273849723, etc. É importante ressaltar que esse tipo de variável pode representar também números inteiros.</p>
+              <p>Números que possuem mais de 15 números depois da vírgula serão truncados na décima quinta casa. Por exemplo, Python não terá dificuldades em entender as seguintes definição como <mark class="red">float</mark>:</p>
+              <img src=images/Log_Prog/Py_009.png><br/>
+              <br/>
+              <br/>
+              <p>Entretanto, se quisermos considerar, por exemplo, 5 como <mark class="red">float</mark>, será necessário declarar isso, uma vez que 5 também pode ser do tipo <mark class="red">int</mark>, como mencionado anteriormente.</p>
+              <img src=images/Log_Prog/Py_010.png><br/>
+              <br/>
+              <br/>
+              <p>Esse tipo de variável pode ser utilizado também para representar alguns casos especiais de números como <mark class="red">nan</mark> (“Not a Number – não número”), +/- <mark class="red">inf</mark> (+/- infinito), e expoentes:</p>
+              <img src=images/Log_Prog/Py_011.png><br/>
+              <br/>
+              <br/>
+            </div>
+            <br/>
+            <br/>
+          </div>
+          
+          <div>
+            <h5>Variáveis texto</h5>
+            <br/>
+            <p>Em Python essas variáveis são representadas por <i>strings</i>, e diferente de outras linguagem de mais baixo nível, não há implementado na biblioteca básica do Python o tipo de variável <i>char</i> (variável caractere).</p>
+            <br/>
+            <br/>
+            <div>
+              <h6>Variáveis do tipo String - <b class="red">str</b></h6>
+              <br/>
+              <p>Strings são sequências de dados de caracteres. O tipo de variável string em Python é chamado <mark class="red">str</mark>.</p>
+              <p>As strings podem ser delimitadas utilizando ambas: aspas simples ou duplas. Todos os caracteres entre os delimitadores de abertura e fechamento são parte da string.</p>
+              <img src=images/Log_Prog/Py_012.png><br/>
+              <br/>
+              <br/>
+              <p>Uma string em Python pode conter muitos caracteres, conforme o desejo do programador. O único fator limitante é a fonte de memória da máquina na qual o programa está sendo executado. Uma string pode também ser vazia:</p>
+              <img src=images/Log_Prog/Py_013.png><br/>
+              <br/>
+              <br/>
+              <p>Como poderíamos incluir um caractere aspas ‘ como parte de uma string? Nosso primeiro impulse é tentar algo como o exemplo abaixo:</p>
+              <img src=images/Log_Prog/Py_014.png><br/>
+              <br/>
+              <br/>
+              <p>Como pode-se notar, essa forma não funcionou muito bem. A string nesse exemplo abre com a aspas simples e presume que a próxima aspas simples, aquela após o parênteses, a qual era para ser parte da string, é o delimitador de fechamento da string. E a aspas simples final acaba abrindo uma outra string causando o erro de sintaxe apresentado.</p>
+              <p>Se o objetivo é incluir tanto aspas simples quanto duplas dentro de uma string, a maneira mais simples de expressar essa string é utilizando o outro delimitador não contido na string, conforme apresentado abaixo.</p>
+              <img src=images/Log_Prog/Py_015.png><br/>
+              <img src=images/Log_Prog/Py_016.png><br/>
+              <br/>
+              <br/>
+              <p>Outra solução é suprimir o significado do caractere especial utilizando a barra invertida “\” na frente do caractere aspas na string. Com isso o Python vai suprimir o significado usual desse caráter e vai interpretar as aspas de forma literal:</p>
+              <img src=images/Log_Prog/Py_017.png><br/>
+              <br/>
+              <br/>
+              <p>Da mesma maneira para as aspas duplas:</p>
+              <img src=images/Log_Prog/Py_018.png><br/>
+              <br/>
+              <br/>
+              <p>Para inserir uma barra invertida literalmente dentro de uma string, devemos:</p>
+              <img src=images/Log_Prog/Py_019.png><br/>
+              <br/>
+              <br/>
+              <p>Agora imagine que nós queremos criar uma string com um caractere tab, como poderíamos fazer? Alguns editores de texto podem permitir inserir um caractere tab em seu código. Mas muitos programadores consideram uma prática pobre, devido várias razões:</p>
+              <ul>
+                <li>O computador consegue distinguir entre um caractere tab e uma sequência de caracteres espaços, mas o programador não. Para uma pessoa lendo o código, caracteres tab e espaço são visualmente indistinguíveis.</li>
+                <li>Alguns editores de texto são configurados para eliminar automaticamente o caractere tab e expandí-lo para um número adequado de caracteres espaço.</li>
+                <li>Alguns ambientes REPL de Python não inserem tabs em seus códigos.</li>
+              </ul>
+              <p>Para Python e para quase todas as linguagens de programação comuns, um caractere tab pode ser especificado pela sequência \t:</p>
+              <img src=images/Log_Prog/Py_020.png><br/>
+              <br/>
+              <br/>
+              <p>A barra invertida antes do t, faz com que ele perca seu significado usual, que é o significado literal t. A seguir é apresentada uma lista de sequências em que a barra invertida altera o significado literal dos caracteres.</p>
+              <img src=images/Log_Prog/Py_021.png><br/>
+              <br/>
+              <br/>
+              <p>Veja alguns exemplos da Tabela acima aplicadas em Python:</p>
+              <img src=images/Log_Prog/Py_022.png><br/>
+              <br/>
+              <br/>
+              <p>De maneira oposta podemos especificar que não queremos que o caractere especial seja traduzido, para tanto utilizamos uma “raw string”, em que, inserimos o r minúsculo ou maiúsculo antes de definir nossa string, conforme nos exemplos apresentados abaixo.</p>
+              <img src=images/Log_Prog/Py_023.png><br/>
+              <br/>
+              <br/>
+              <p>Há ainda uma outra maneira de delimitar strings em Python:  aspas triplas. Esse método permite que novas linhas possam ser incluídas, além disso permite a inclusão de ambas aspas simples e duplas. </p>
+              <img src=images/Log_Prog/Py_024.png><br/>
+              <br/>
+              <br/>
+              <p>E por último, mas não menos importante, vamos falar sobre as string formatadas, que são aplicadas ao adicionar “f” antes da string. O exemplo a seguir explicita a vantagem de utilizar esse formato, em que, com ela é apresentado apenas os número de casas decimais requisitadas pelo usuário.</p>
+              <img src=images/Log_Prog/Py_025.png><br/>
+              <br/>
+              <br/>
+            </div>
+            <br/>
+            <br/>
+          </div>
+
+          <div>
+            <h5>Variáveis sequência</h5>
+            <br/>
+            <p>Iremos focar no tipo de variável <mark class="red">list</mark> (lista) em Python, mas é importante saber que existem outros tipos de variáveis sequência como, por exemplo, a variável <mark class="red">tuple</mark>, que possue como uma de suas aplicações descrever informações de latitude e longitude.</p>
+            <br/>
+            <br/>
+            <div>
+              <h6>Variáveis do tipo lista - <b class="red">list</b></h6>
+              <br/>
+              <p>Uma variável do tipo <mark class="red">list</mark> corresponde a uma sequência de itens. É um dos tipos de variáveis mais utilizadas em Python e ela é bastante flexível. Todos os itens em uma lista não precisam necessariamente ser do mesmo tipo. Para declarar uma variável deste tipo basta utilizar colchetes para delimitar o início e o fim da variável e separar seus itens utilizando vírgula.</p>
+              <img src=images/Log_Prog/Py_026.png><br/>
+              <br/>
+              <br/>
+              <p>As variáveis <mark class="red">list</mark> sempre se iniciam com índice 0 em python, então a variável declarada acima contém 3 itens com índices que vão de 0 a 2.</p>
+              <p>Até agora utilizamos somente o ambiente de comandos do Python. Para exemplificar essa seção utilizaremos o editor, em que vamos escrever um código previamente e depois executá-lo.</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_027.png><br/>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_028.png><br/>
+              <br/>
+              <br/>
+              <p>As listas são mutáveis, ou seja, os valores dos elementos de uma lista podem ser facilmente alterados.</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_029.png><br/>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_030.png><br/>
+              <br/>
+              <br/>
+            </div>
+            <br/>
+            <br/>
+          </div>
+
+          <div>
+            <h5>Variáveis Booleana</h5>
+            <br/>
+            <p>Python proporciona o uso de variáveis do tipo booleanas. Variáveis desse tipo podem ter um dos dois valores: verdadeiro ou falso.</p>
+            <br/>
+            <br/>
+            <div>
+              <h6>Variáveis do tipo booleana - <b class="red">bool</b></h6>
+              <br/>
+              <p>Verifique abaixo como esse tipo de variável pode ser declarada em Python</p>
+              <img src=images/Log_Prog/Py_031.png><br/>
+              <br/>
+              <br/>
+              <p>Veja que a sintaxe para True e False em Python é necessariamente com a primeira letra em maiúsculo, caso contrário ocorerá um erro</p>
+              <img src=images/Log_Prog/Py_032.png><br/>
+              <br/>
+              <br/>
+              <p>Além das variáveis Booleanas, outros tipos de variáveis podem ser estimados também em um contexto Booleano para verificar a validade de uma condição. No Capítulo 5 falaremos mais sobre essa questão das relações condicionais.</p>
+              <br/>
+              <br/>
+            </div>
+            <br/>
+            <br/>
+          </div>
+
+          <div>
+            <h5>Variáveis Dicionário</h5>
+            <br/>
+            <p>Esse tipo de variável também é comumente utilizada, principalmente para lidar com uma grande quantidade de dados, a seguir detalharemos mais um pouco sobre as variáveis dicionário</p>
+            <br/>
+            <br/>
+            <div>
+              <h6>Variáveis do tipo dicionário - <b class="red">dict</b></h6>
+              <br/>
+              <p>Esse tipo de variável corresponde a uma coleção de pares: chave-valor. É geralmente empregada quando utilizamos uma grande quantidade de dados. Esta variável em Phyton é otimizada para salvar esses dados. Frisando que para salvar algum valor é necessário saber sua chave.</p>
+              <p>Para definir esse tipo de variável são utilizadas as chaves "{}", onde devem ser inseridos pares na forma <mark class="green">chave : valor</mark>, os quais podem ser de qualquer tipo (numérico, texto...).</p>
+              <img src=images/Log_Prog/Py_033.png><br/>
+              <br/>
+              <br/>
+              <p>Nós utilizamos a chave para salvar o valor, mas não o contrário. Faremos esse teste utilizando o editor e apresentamos o código e sua saída abaixo.</p>
+              <a class="dark_blue">Código – Editor:</a><br/>
+              <img src=images/Log_Prog/Py_034.png><br/>
+              <br/>
+              <a class="dark_blue">Saída:</a><br/>
+              <img src=images/Log_Prog/Py_035.png><br/>
+              <br/>
+              <br/>
+            </div>
+            <br/>
+            <br/>
+          </div>
+
+
+          <br/>
+          <br/>
+          <div>
+            <h1>Teste</h1><br/>
+            <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">                
+              <div class="">O seguinte código em Python imprime na tela qual o tipo de variável?</div><br/>
+              <img src=images/Log_Prog/Py_036.png><br/><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> &lt;class 'int'&gt;<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> &lt;class 'float'&gt;<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> &lt;class 'char'&gt;<br/>
+              <input id="answer" type="radio" name="grupo1" value="certo"> &lt;class 'str'&gt;<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> O código gera um erro de sintaxe<hr>
+
+              <button class="submit btn btn-success my-2 my-sm-0" onclick="return handleClick();" type="submit">Enviar</button>
+
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_01_LogProg_c02.html'">Página Anterior</a></button>
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_01_LogProg_c04.html'">Próxima Página</a></button>
+              
+            </form>
+
+            <script>
+              function handleClick()
+              {         
+              var amountCorrect = 0;          
+              for(var i = 1; i <= 45; i++) {
+                var radios = document.getElementsByName('grupo'+i);
+                for(var j = 0; j < radios.length; j++) {
+                  var radio = radios[j];
+                  if(radio.value == "certo" && radio.checked) {
+                    amountCorrect++;
+                    }
+                  }
+                }                   
+              if(amountCorrect == 1) {
+                alert("Parabéns você acertou! Está mestre em programação!");
+                }
+              else {
+                //alert("Respostas Corretas: " + amountCorrect + " de 1");
+                alert("Você errou :/... Não desanime! Tente novamente!");
+                }
+              
+              }
+            </script>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>
+
