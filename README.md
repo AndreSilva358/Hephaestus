@@ -41,27 +41,27 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ## Conteúdos em HTML
 
-### - Arquitetura e Organização de Computadores
+### 1. Arquitetura e Organização de Computadores
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/arc_org_pag01.gif)
 
-### - Laboratório de Hardware
+### 2. Laboratório de Hardware
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/hardware_pag01.gif)
 
-### - Língua Inglesa
+### 3. Língua Inglesa
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/ingles_pag01.gif)
 
-### - Língua Portuguesa
+### 4. Língua Portuguesa
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/port_pag01.gif)
 
-### - Lógica de Programação
+### 5. Lógica de Programação
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/algo_pag01.gif)
 
-### - Matemática Discreta
+### 6. Matemática Discreta
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/mat_disc_pag01.gif)
 
