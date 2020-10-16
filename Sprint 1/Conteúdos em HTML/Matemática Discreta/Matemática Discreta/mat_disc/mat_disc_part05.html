@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+   
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles_mat.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Matemática Discreta</title>
+
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+
+            </button>
+            <a class="btn_header btn btn-outline-success my-2 my-sm-0" href="#">Login</a>
+            </button>
+            <a class="btn_header btn btn-success my-2 my-sm-0" href="#">Registre-se</a>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      <div class="div-promocao">
+        <a class="div-promocao" href="#">Na compra do segundo conteúdo, GANHE 50% DE DESCONTO para usar como saldo de crédito na compra do próximo conteúdo!</a>
+      </div>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <h1>Matemática Discreta</h1>
+          <p>Nessa seção voce irá aprender sobre Lógica Formal e Grafos</p><br>
+          <h3>Lógica Formal Parte V </h3>
+          <h4><span style="text-decoration: underline;">Implicação lógica e Equivalência lógica</span></h4><br>
+
+          <!-- 01 -->
+          <p><strong>1. PROPOSIÇÕES INDEPENDENTES E DEPENDENTES</strong></p>
+          <p style="text-indent: 30px;">Para uma melhor compreensão do assunto, é necessário entendermos algumas definições introdutórias. Vejamos sobre proposições independentes e dependentes.</p>
+          <p style="text-indent: 30px;">Duas proposições são ditas independentes quando, em suas tabelas-verdade, ocorrem todas as quatro alternativas <strong>VV, VF, FV e FF</strong>. Do contrário, ou seja, quando nas tabelas-verdade de duas proposições não ocorre pelo menos uma das quatro alternativas <strong>VV, VF, FV e FF</strong>, dizemos que elas são <strong>dependentes</strong>. Quando duas proposições são dependentes, dizemos ainda que existe uma relação entre elas.</p>
+          <p style="text-indent: 30px;">Como podemos ver na tabela-verdade a seguir, as proposições <strong>~ p e p ↔ q</strong> são dependentes, pois ocorrem as quatro alternativas: <strong>FV</strong> na primeira linha, <strong>FF</strong> na segunda linha, <strong>VF</strong> na terceira linha e <strong>VV</strong> na quarta linha.</p>
+          <img src="images/tabela35.jpg">
+          <br><br>
+          <p style="text-indent: 30px;">As proposições <strong>p e q → p</strong> são dependentes, como pode ser visto de suas tabelas verdades.</p>
+          <p style="text-indent: 30px;">É possível perceber que ocorre  na <strong>VV</strong> nas linhas 1 e 2, <strong>FV</strong> na linha 4 e <strong>FF</strong> na linha 3, mas não ocorres a alternativa <strong>VF</strong>. Portanto, existe uma relação entre as proposições <strong>p e q → p</strong>.</p>
+          <img src="images/tabela36.jpg">
+          <br><br>
+          <p style="text-indent: 30px;">Uma relação entre proposições em que não ocorre exatamente uma das alternativas VV, VF, FV, FF é dita uma <strong>relação simples</strong>, enquanto que uma relação em que não ocorrem exatamente duas das alternativas é uma <strong>relação composta</strong>.</p>
+
+          <!-- 02 -->
+          <p><strong>2. IMPLICAÇÕES LÓGICAS</strong></p>
+          <p style="text-indent: 30px;">Dizemos que uma proposição P implica (ou implica logicamente) uma proposição Q, e representamos P ⇒ Q, quando, em suas tabelas-verdade, quando, em suas tabelas-verdade, não ocorre VF (nessa ordem) numa mesma linha. Outras formas equivalente de dizer que P implica Q (P ⇒ Q) são:</p>
+          <ul>
+            <li>P ⇒ Q quando Q é verdadeira (V) todas as vezes que P for verdadeira (V).</li><br>
+            <li>P ⇒ Q quando não ocorre P e Q com valores lógicos simultâneos, respectivamente, V e F.</li><br>
+          </ul>
+
+          <p style="text-indent: 30px;">Vejamos o exemplo a seguir, das tabelas-verdade das proposições <strong>p ^ q</strong> e de <strong>p  ↔ q</strong>. Note que, sempre que <strong>p ^ q</strong> é verdadeira <strong>(V)</strong>, <strong>p  ↔ q</strong> também é verdadeira:</p>
+          <img src="images/tabela37.jpg">
+          <br><br>
+          <p style="text-indent: 30px;">O teorema (1) seguinte diz que toda proposição implica uma tautologia e somente uma contradição implica uma contradição.</p>
+          <p style="text-indent: 30px;"><i>“A proposição P implica a proposição Q, isto é, P ⇒ Q se, e somente se, a condicional P → Q é uma tautologia”.</i></p>
+          <p style="text-indent: 30px;">Portanto, toda implicação corresponde a uma condicional tautológica, e vice-versa. Mediante o<strong> Princípio da Substituição</strong>, visto anteriormente, uma consequência do Teorema 1 é o seguinte corolário:</p>
+          <p style="text-indent: 30px;"><i>"Sejam <strong>p<sub>1</sub>, p<sub>2</sub>, … p<sub>n</sub></strong> proposições simples dadas. Se <strong>P( p<sub>1</sub>, p<sub>2</sub>, … p<sub>n</sub> ) ⇒ Q( p<sub>1</sub>, p<sub>2</sub>, … p<sub>n</sub> )</strong>, então temos também <strong>P( p'<sub>1</sub>, p'<sub>2</sub>, … p'<sub>n</sub> ) ⇒ Q( p'<sub>1</sub>, p'<sub>2</sub>, … p'<sub>n</sub> )</strong> quaisquer que sejam as proposições simples ou compostas <strong>p'<sub>1</sub>, p'<sub>2</sub>, … p'<sub>n</sub></strong>"</i></p>
+          <p style="text-indent: 30px;">O Corolário garante que, ao substituirmos as proposições simples componentes em uma implicação por outras proposições quaisquer, ainda teremos uma implicação.</p>
+          <p style="text-indent: 30px;">Podemos notar facilmente que a relação de implicação goza das seguintes propriedades:</p>
+          <ul>
+            <li>1. <strong>Reflexiva:</strong> P ⇒ P</li>
+            <li>2. <strong>Transitiva:</strong> Se P ⇒ Q e Q ⇒ R , então P ⇒ R</li>
+          </ul>
+
+          <!-- 03 -->
+          <p><strong>3. EQUIVALÊNCIAS LÓGICAS</strong></p>
+          <p style="text-indent: 30px;">Dizemos que uma proposição <strong>P</strong> é <strong>equivalente</strong> (ou logicamente equivalente) a uma proposição <strong>Q</strong>, e representaremos por <strong>P ⇔ Q</strong>, quando, em suas tabelas-verdade, não ocorrem <strong>VF</strong> e nem <strong>FV</strong> numa mesma linha. Outra forma de dizer que <strong>P</strong> é equivalente a <strong>Q (P ⇔ Q)</strong> é:</p>
+          <ul>
+            <li><strong>P ⇔ Q</strong> Quando as tabelas-verdade de P e Q são idênticas.</li>
+          </ul>
+          <p style="text-indent: 30px;">Vejamos o exemplo a seguir, onde as proposições <strong>~~p</strong> e p são equivalentes, desse modo, toda proposição é equivalente à sua dupla negação. De fato, basta verificar que as tabelas-verdade de <strong>~~p</strong> e de <strong>p</strong> são idênticas:</p>
+          <img src="images/tabela38.jpg">
+          <br><br>
+          <p style="text-indent: 30px;">Portanto, simbolicamente, temos <strong>~~p ⇔ p</strong>, chamada <strong>Regra da Dupla Negação</strong>.</p>
+          <p style="text-indent: 30ox;">Vejamos mais um exemplo, onde as proposições <strong>p → q</strong> e <strong>~p V q</strong> são equivalentes, ou seja, uma condicional é equivalente à disjunção da negação do antecedente com o seu consequente. Simbolicamente, <strong>p → q ⇔ ~p V q</strong>. Esse fato pode ser comprovado verificando-se que as tabelas-verdade <strong>p → q</strong> e <strong>~p V q</strong> são idênticas.</p>
+          <img src="images/tabela39.jpg">
+          <br><br>
+          <p style="text-indent: 30px;">O teorema (2) seguinte estabelece uma relação entre a equivalência lógica e certa proposição bicondicional.</p>
+          <p style="text-indent: 30px;"><i>“A proposição <strong>P</strong>> equivale à proposição <strong>Q</strong>, isto é, <strong>P ⇔ Q se, e somente se, a bicondicional P ↔ Q</strong> for uma tautologia.”</i></p>
+          <p style="text-indent: 30px;">Portanto, toda equivalência corresponde a uma bicondicional tautológica, e vice-versa. Mediante o Princípio da Substituição, visto anteriormente, uma consequência do Teorema 2 é o seguinte corolário:</p>
+          <p style="text-indent: 30px;"><i>"Sejam <strong>p<sub>1</sub>, p<sub>2</sub>, … p<sub>n</sub></strong> proposições simples dadas. Se <strong>P( p<sub>1</sub>, p<sub>2</sub>, … p<sub>n</sub> ) ⇔ Q( p<sub>1</sub>, p<sub>2</sub>, … p<sub>n</sub> )</strong>, então temos também <strong>P( p'<sub>1</sub>, p'<sub>2</sub>, … p'<sub>n</sub> ) ⇔ Q( p'<sub>1</sub>, p'<sub>2</sub>, … p'<sub>n</sub> )</strong> quaisquer que sejam as proposições simples ou compostas <strong>p'<sub>1</sub>, p'<sub>2</sub>, … p’<sub>n</sub></strong>."</i></p>
+          <p style="text-indent: 30px;">Este corolário garante que, ao substituirmos as proposições simples componentes em uma equivalência por outras proposições quaisquer, ainda teremos uma equivalência.</p>
+          <p style="text-indent: 30px;">Podemos notar facilmente que a relação de equivalência goza das seguintes propriedades:</p>
+          <ul>
+            <li>1. <strong>Reflexiva:</strong> P ⇔ P</li>
+            <li>2. <strong>Simétrica:</strong> Se P ⇔ Q , então Q ⇔ P</li>
+            <li>3. <strong>Transitiva:</strong> Se P ⇔ Q e Q ⇔ R , então P ⇔ R</li>
+          </ul>
+
+          <h2>Exercícios</h2>
+          <p>Agora teste o seu grau de aproveitamento do conteúdo resolvendo os exercícios a seguir</p>
+          <p><strong>IMPLICAÇÕES E EQUIVALÊNCIAS</strong></p>
+          <p style="text-indent: 30px;">1. Utilize a tabela verdade para resolver os exercícios a seguir:</p>
+          <ul>
+            <li>a) Usando tabela-verdade, prove que p ∧ q ⇒ p ∨ q.</li><br>
+            <li>b) Verifique, usando tabela-verdade, se a proposição p ↔ ¬q implica ou não a proposição ¬p → ¬q.</li><br>
+            <li>c) Usando tabela-verdade, mostre a equivalência p → p ∧ q ⇔ p → q, a qual é chamada Regra de Absorção.</li><br>
+            <li>d) Verifique, usando tabela-verdade, que a proposição p ↔ q é equivalente à conjunção das duas condicionais p → q e q → p , ou seja, mostre que p ↔ q e ( p → q ) ∧ (q → p ) são equivalentes</li><br>
+          </ul>
+          
+          <h2>Gabarito</h2>
+          <p>Confira suas respostas</p>
+          <ul>
+            <li>a) Vamos construir a tabela-verdade da condicional p ∧ q → p ∨ q</li><br>
+            <img src="images/tabela40.jpg">
+            <br><br>
+            <p>Portanto, a condicional p ∧ q → p ∨ q é tautológica, pois, na coluna de saída de sua tabela-verdade, ocorre somente o valor lógico V. Logo, a proposição p ∧ q implica p ∨ q ou, simbolicamente, p ∧ q ⇒ p ∨ q .</p>
+            <li>b) Vamos construir a tabela-verdade da condicional ( p ↔ ~q ) → ( ~p → ~q ).</li><br>
+            <img src="images/tabela41.jpg">
+            <br><br>
+            <p>Portanto, a condicional ( p ↔ ¬q ) → (~p → ~q ) não é tautológica, pois, na coluna de saída de sua tabela-verdade, ocorre o valor lógico F. Logo, a proposição p ↔ ~q não implica ~p → ~q.</p>
+            <li>c) Vamos construir a tabela-verdade da bicondicional p → p ∧ q ↔ p → q.</li><br>
+            <img src="images/tabela42.jpg">
+            <br><br>
+            <p>Portanto, a bicondicional p → p ∧ q ↔ p → q é tautológica, pois, na coluna de saída de sua tabela-verdade, ocorre somente o valor lógico V. Logo, as proposições p → p ∧ q e p → q são equivalentes, ou seja, ocorre p → p ∧ q ⇔ p → q.</p>
+            <li>d) Vamos construir as tabelas-verdade das proposições p ↔ q e ( p → q ) ∧ (q → p ).</li><br>
+            <img src="images/tabela43.jpg">
+            <br><br>
+            <p>Portanto, as tabelas-verdade de p ↔ q e ( p → q ) ∧ (q → p ) são idênticas. Logo, as proposições p ↔ q e ( p → q ) ∧ (q → p ) são equivalentes ou, simbolicamente, p ↔ q ⇔ ( p → q) ∧ (q → p) .</p>
+          </ul>
+        
+        </div>
+        
+      </div>
+      
+
+      
+
+        
+
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>
+

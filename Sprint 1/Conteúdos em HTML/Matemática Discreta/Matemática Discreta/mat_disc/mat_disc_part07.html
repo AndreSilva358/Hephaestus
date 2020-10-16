@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+   
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles_mat.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Matemática Discreta</title>
+
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+
+            </button>
+            <a class="btn_header btn btn-outline-success my-2 my-sm-0" href="#">Login</a>
+            </button>
+            <a class="btn_header btn btn-success my-2 my-sm-0" href="#">Registre-se</a>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      <div class="div-promocao">
+        <a class="div-promocao" href="#">Na compra do segundo conteúdo, GANHE 50% DE DESCONTO para usar como saldo de crédito na compra do próximo conteúdo!</a>
+      </div>
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <h1>Matemática Discreta</h1>
+          <p>Nessa seção voce irá aprender sobre Lógica Formal e Grafos</p><br>
+          <h3>Introducão à Grafos </h3>
+          <h4><span style="text-decoration: underline;">Grafos</span></h4><br>
+
+          <!-- 01 -->
+          <p><strong>TEORIA DOS GRAFOS</strong></p>
+          <p style="text-indent: 30px;">A Teoria dos Grafos é uma área bastante recente da Matemática e uma das poucas que podemos datar exatamente como e quando começou. O conhecimento sobre grafos é relevante, dentre outras áreas, para a Ciência da Computação, Engenharia, Indústria e para estudar tópicos mais avançados na Matemática Discreta.</p>
+          <p style="text-indent: 30ox;">Nesse capítulo veremos:</p>
+          <ul>
+            <li>O problema que motivou a criação da Teoria dos Grafos: as pontes de Königsberg.</li>
+            <li>A definição e os principais elementos de um grafo.</li>
+            <li>A classificação de um grafo quanto à conexidade e à existência de ciclos.</li>
+            <li>Alguns problemas em que a teoria dos grafos se aplica.</li>
+          </ul>
+          
+          <p><strong>1. As pontes de Königsberg</strong></p>
+          <p style="text-indent: 30px;">Veremos agora um problema que levou a criação da Teoria dos Grafos, esse problema surgiu na cidade de Kaliningrado, hoje na Rússia, que, durante muito tempo, se chamou Königsberg. Nasceram em Königsberg os grandes matemáticos Christian Goldbach, que contribuiu para a Teoria dos Números no século 18; e David Hilbert, que atuou em diversas áreas da Matemática nos séculos 19 e 20, mas é principalmente por causa de algumas pontes e de um matemático suíço que Königsberg ganhou relevância na história da Matemática. A cidade cresceu às margens do rio Prególia e, na sua parte central, possui duas ilhas que eram ligadas às margens por algumas pontes</p>
+          <p style="text-indent: 30px;">Vejamos na Figura 1, essas pontes que são sinalizadas pelos retângulos escuros.
+          </p>
+          <img src="images/fig01.jpg"><br><br>
+          <p style="text-indent: 30px;">Por muito tempo, discutia-se a possibilidade de passear pela cidade passando por todas as sete pontes uma única vez. Chegar a uma ilha, ou a uma margem, por um meio que não fosse uma das pontes, não era aceitável como parte do caminho, assim como também era exigido que cada ponte fosse percorrida totalmente, isto é, ao se entrar em uma delas, só se poderia sair pela outra extremidade. O passeio pode começar em qualquer uma das margens, ou das ilhas, e não precisa terminar onde começou. Por mais que tentassem, os moradores da cidade não conseguiam resolver o problema: sempre se viam na necessidade de atravessar uma ponte repetidamente, ou ficava faltando uma ponte para ser cruzada, mas que não dava para acessar de onde se estava. Isso fez com que muitos acreditassem que o problema fosse impossível, mas não se pode considerar que um problema é impossível só porque não foi resolvido depois de muitas tentativas, não é? Quem colocou uma pedra na situação toda, provando que, de fato, um passeio com as condições pedidas não existe, foi o matemático suíço do século 18 Leonhard Euler. Vejamos como isso foi feito.</p>
+          <p style="text-indent: 30px;">Para começar, Euler observou que o percurso realizado dentro de cada ilha ou na margem é irrelevante, a parte significativa de cada rota é a sequência com que as pontes são cruzadas. Com isso, ele reformulou o problema eliminando todas as partes desimportantes, isto é, mantendo apenas uma lista das margens e ilhas e as pontes que as ligam. Como o tamanho da ilha ou da margem não desempenha nenhum papel, podemos representar cada uma dessas porções de terra por um ponto.</p>
+          <p style="text-indent: 30px;">Assim, cada ponte pode se trocada por uma linha ligando dois desses pontos. Na Figura 2, temos essencialmente todos os caminhos a serem percorridos (representados pelas linhas brancas).</p>
+          <img src="images/fig02.jpg"><br><br>
+          <p style="text-indent: 30px;">Uma vez feito isso, o rio, as ilhas, as margens, ou qualquer outra coisa da cidade, se tornam dispensáveis. Dessa forma, podemos considerar apenas a Figura 3 para pensar no problema das pontes de Königsberg.</p>
+          <img src="images/fig03.jpg"><br><br>
+          <p style="text-indent: 30px;">Assim, ficamos apenas com o que é significativo. Perceba que cada ponto representa uma porção de terra e cada linha ligando esses dois pontos representa uma ponte, certo? A quantidade de conexões entre dois desses pontos é que é relevante, de modo que poderíamos traçar linhas com outras formas ou posicionar os pontos em outras partes do plano, bem como colocar uma linha que liga dois pontos em outra posição (abaixo ou acima da posição real da ponte).</p>
+          <p style="text-indent: 30px;">A próxima observação de Euler sobre os passeios do problema foi a de que, ao se chegar a um dos pontos por uma ponte, só se pode sair desse ponto por uma ponte, de modo que, excetuando-se os pontos inicial e final do passeio, para todos os pontos, a quantidade de vezes que se chega ao ponto é igual à quantidade de vezes que se sai. Por isso, para cada ponto intermediário do passeio, o número de pontes que o toca deve ser par, sendo metade delas as pontes pelas quais se chega ao ponto e igual quantidade de pontes pelas quais se deve sair dele. Dessa forma, a quantidade de linhas, saindo de todos os pontos, exceto eventualmente dois, deve ser par. Porém, de todos os pontos do esquema sai uma quantidade ímpar de linhas (um deles tem cinco pontes e os outros três têm 3 cada um). Assim, teríamos que todos os quatro pontos devem ser começo ou final do passeio, o que é uma contradição e, portanto, o problema das pontes de Königsberg não possui solução.</p>
+          <p style="text-indent: 30px;">A solução engenhosa de Euler para esse problema deu origem à Teoria dos Grafos, que é como chamaremos cada um dos esquemas simplificados com pontos e linhas ligando-os sob certas condições.</p>
+          <p style="text-indent: 30px;">Note que os números, assim como os grafos, são uma maneira abstrata de tratar um problema com o que efetivamente importa. A mesma abordagem para resolver o problema das pontes poderia ser empregada se, em vez de margens e ilhas, tivéssemos quatro cidades e, no lugar das pontes fossem rodovias ligando-as, ou se, em vez das ilhas, tivéssemos estações de metrô e linhas ligando essas estações, ou átomos e ligações entre esses átomos, certo? Em essência, a situação é a mesma.</p>
+
+          <!-- 02 -->
+          <p><strong>2. Grafos e seus principais elementos</strong></p>
+          <p style="text-indent: 30px;">No tópico anterior, vimos que Euler simplificou o problema das pontes de Königsberg, representando cada porção de terra por um ponto e cada ponte por uma linha ligando esses pontos. A ideia central foi perceber que o importante era se havia ou não uma ligação entre dois pontos e quantas eram as linhas que saíam de cada ponto. Mais geralmente, cada ponto será chamado de vértice e cada linha ligando dois vértices será chamada de aresta. Uma ideia fundamental aqui é que a forma da linha, de fato, é irrelevante. O que devemos observar, estimado(a) aluno(a), é apenas se há uma linha ligando dois pontos dados. Assim, para formar um esquema como o das pontes de Königsberg, precisamos apenas elencar os pontos que serão os vértices e listar quais deles são ligados entre si. Na situação das pontes, havia mais de uma linha ligando dois pontos, mas não vamos considerar essa possibilidade inicialmente, isto é, consideraremos que entre dois pontos há no máximo uma linha, certo? Um esquema desses será chamado de grafo e consistirá, portanto, de alguns pontos e uma lista de quais deles são ligados entre si. Neste tópico 2, veremos a definição de grafo e seus principais componentes.</p>
+          <p style="text-indent: 30px;">Sendo <strong>V</strong> um conjunto não vazio, uma aresta sobre <strong>V</strong> é simplesmente um conjunto com exatamente dois elementos de <strong>V</strong>, os quais são chamados de vértices dessa aresta. Por exemplo, se <strong>V = { 1, 2, 3 }</strong> , temos que <strong>{ 2, 3 }</strong> é uma <strong>aresta de vértices 2 e 3</strong>. O conjunto de todas as arestas de <strong>V</strong> será denotado por <strong>V<sup>(2)</sup></strong> . Assim, para <strong>V = { 1, 2, 3 }</strong> , temos <strong>V 2 = { { 1, 2 } , { 1, 3 } , { 2, 3 } }</strong> . Um conjunto de arestas de <strong>V</strong> é, portanto, qualquer subconjunto de <strong>V<sup>(2)</sup></strong>.</p>
+          <p style="text-indent: 30px;">A definição de grafos entende-se por:</p>
+          <p><i><strong>“ Um conjunto, não vazio e finito, de vértices V e de um conjunto de arestas A com vértices em V. Nesse caso, escrevemos G = (V, A).” </strong></i></p>
+          <p><strong>Exemplo 1</strong></p>
+          <p style="text-indent: 30px;">Considerando <strong>V = {X, Y, Z, W}</strong> e <strong>A = {{X, Y}, {X, Z}, {X, W}, {Y, Z}, {Z, W}}</strong>, temos que <strong>G<sub>1</sub> = (V, A)</strong>, primeiro grafo que estamos exemplificando, que possui, nesse caso, quatro vértices e cinco arestas.</p>
+          <p><strong>Exemplo 2</strong></p>
+          <p style="text-indent: 30px;">Se considerarmos <strong>V</strong> como o conjunto dos estados da Região Nordeste do Brasil e <strong>A = {{x, y}; x faz divisa com y}</strong>, temos que, no grafo <strong>G<sub>2</sub> = (V, A)</strong>), existem, por exemplo, as arestas <strong>{Ceará, Pernambuco} e {Sergipe, Alagoas}</strong>, mas <strong>{Ceará, Alagoas}</strong> não é uma aresta de <strong>A</strong>.</p>
+
+          <p style="text-indent: 30px;">Observe que a definição de grafo apenas lista alguns elementos para serem vértices e alguns conjuntos com dois elementos para serem arestas. Quando os vértices <strong>a</strong> e <strong>b</strong> são tais que existe a aresta <strong>{a, b}</strong> no grafo, dizemos que <strong>a</strong> e <strong>b</strong> são adjacentes e, nesse caso, que <strong>a</strong> e <strong>b</strong> são as extremidades dessa aresta, que poderá ser denotada por <strong>ab</strong> ou <strong>ba</strong>. Essa é uma das principais informações sobre um grafo. Assim como podemos usar diagramas para representar conjuntos, também podemos usar um esquema gráfico para representar as informações de um grafo. Para tal, colocaremos um ponto para indicar cada vértice e uma curva ligando dois vértices que forem adjacentes. Na Figura 4, temos possíveis representações para o grafo <strong>G<sub>1</sub></strong> do Exemplo 1.</p>
+          <img src="images/fig04.jpg"><br><br>
+          <p style="text-indent: 30px;">Observe que, embora os dois esquemas que compõem a Figura 4 tenham formas diferentes, eles trazem exatamente as mesmas informações de ligação entre os pontos e, portanto, representam o mesmo grafo. Se usarmos a mesma ideia, podemos representar o grafo do Exemplo 2, conforme Figura 5.</p>
+          <img src="images/fig05.jpg"><br><br>
+          <p style="text-indent: 30px;">Veja que a forma dos estados, o tamanho deles ou sua efetiva posição geográfica não desempenham papel nesse grafo, uma vez que a informação que ele transmite tem a ver com dois estados terem ou não divisa, certo? Podemos usá-lo para perceber, por exemplo, que Paraíba e Alagoas não têm divisa, pois não há uma linha ligando os vértices correspondentes a esses estados.</p>
+          <p style="text-indent: 30px;">Um aspecto a ser destacado na definição de grafo é que uma aresta não pode ter extremidades iguais ou várias arestas distintas ligando os mesmos vértices. Há teorias em que essas possibilidades são levadas em conta, mas não vai ser o caso aqui. Tais esquemas são chamados de multigrafos. Os grafos de que esse texto trata são os grafos simples. Quando o conjunto de vértices e de arestas de um grafo estiver claro, podemos simplesmente fazer referência ao grafo G em vez de G = (V, A).</p>
+          <p style="text-indent: 30px;">Dado um conjunto <strong>V</strong> com n elementos, podemos formar <strong>C<sub>n,2</sub></strong> subconjuntos de <strong>V</strong> com exatamente dois elementos, de modo que, se um grafo tem <strong>n</strong> vértices, ele terá, no máximo, <strong>n(n – 1)/2</strong> arestas, isto é, <strong>#V( 2) = n(n – 1)/2</strong>. Quando um grafo possui essa quantidade de arestas, isto é, quando dois vértices quaisquer são adjacentes, dizemos que o grafo é completo. O complemento de um grafo <strong>G</strong> consiste do grafo <strong>G'</strong> cujos vértices são os mesmos de <strong>G</strong> e cujas arestas são, precisamente, aquelas que faltam para que <strong>G</strong> seja completo, ou seja, se <strong>G = (V, A)</strong> é um grafo, seu complemento é o grafo <strong>G' = (V, V<sup>(2)</sup> \ A )</strong>.</p>
+          <p style="text-indent: 30px;">Para <strong>V = {X, Y, Z, W}</strong>, temos <strong>#V = 4</strong> Um grafo completo com vértices em <strong>V</strong> deveria ter <strong>C 4,2</strong> arestas, isto é, <strong>6</strong> arestas. Para <strong>A ={{X, Y}, {X, Z}, {X, W}, {Y, Z}, {Z, W}}</strong>, o grafo <strong>G<sub>1</sub> = (V, A)</strong>, já apresentado no Exemplo 1, não é completo. Seu complemento é o grafo <strong>G'= (V, B)</strong> , em que <strong>B = {{Y, W}}</strong>.</p>
+          <p><strong>Exemplo 3</strong></p>
+          <p style="text-indent: 30px;">Para <strong>V = {P, Q, R}</strong> e <strong>A = {{P, Q}, {P, R}, {Q, R}}</strong>, temos que o grafo <strong>G<sub>3</sub> = (V, A)</strong> é completo e, portanto, seu complemento é o grafo <strong>G<sub>3</sub> = (V, ∅)</strong> . Na Figura 6, temos uma representação do grafo <strong>G<sub>3</sub></strong> (à esquerda) e de seu complemento (à direita).</p>
+          <img src="images/fig06.jpg"><br><br>
+          <p><strong>Exemplo 4</strong></p>
+          <p style="text-indent: 30px;">Para <strong>V = {1, 2, 3, 4, 5}</strong> e <strong>A = {{1, 2}, {1, 4}, {2, 3}, {2, 5}, {3, 4}, {4, 5}}</strong>, o grafo <strong>G<sub>4</sub> = (V, A)</strong> não é completo e seu complemento é <strong>G'<sub>4</sub> = {{1, 3}, {1, 5}, {2, 4}, {3, 5}}</strong>. Na Figura 7, temos uma representação do grafo <strong>G<sub>4</sub></strong> (à esquerda) e de seu complemento (à direita).</p>
+          <img src="images/fig07.jpg"><br><br>
+          <p style="text-indent: 30px;">Se sabemos quais vértices são adjacentes, então podemos contar quantos vértices são adjacentes a um vértice dado. O conjunto de todos os vértices de um grafo <strong>G</strong>, que são adjacentes ao vértice <strong>x</strong>, é chamado de vizinhança de <strong>x</strong> e denotado por <strong>viz<sub>G</sub>(x)</strong>. A quantidade de elementos de <strong>viz<sub>G</sub>(x)</strong> será chamada de grau do vértice. Mais precisamente, temos a seguinte definição:</p>
+          <p style="text-indent: 30px;"><strong><i>“ Seja G = (V, A) um grafo. Se x∈ V , o grau de x em G é o número de vértices que são adjacentes a x, isto é, é a quantidade de elementos do conjunto viz<sub>G</sub> (x) = { y ∈ V; { x, y } ∈ A } . O grau do vértice x no grafo G será denotado por deg<sub>G</sub>(x) ou, quando não houver confusão, por deg(x). Assim, deg<sub>G</sub>(x) = #viz<sub>G</sub>(x). O grafo G é dito ser regular se todos os seus vértices possuem o mesmo grau.”</i></strong></p>
+          <p><strong>Exemplo 5</strong></p>
+          <p style="text-indent: 30px;">No grafo <strong>G<sub>4</sub></strong> , que apresentamos no exemplo anterior, temos que o grau de vértice é <strong>deg(1) = 2</strong>, <strong>deg(2) = 3</strong>, <strong>deg(3) = 2</strong>, <strong>deg(4) = 3</strong> e <strong>deg(5) = 2</strong>. Assim, <strong>G<sub>4</sub></strong> não é regular.</p>
+          <p style="text-indent: 30px;"><i><strong>Atenção:</strong> todo grafo completo é regular, isto é, os seus vértices têm o mesmo grau.</i></p>
+          <p><strong>Exemplo 6</strong></p>
+          <p style="text-indent: 30px;">Se um grafo com <strong>n</strong> vértices é completo, então cada vértice é ligado a todos os outros <strong>n – 1</strong> vértices, de modo que seu grau será <strong>n – 1</strong>. Dessa forma, um grafo com <strong>n</strong> vértices é completo se, e somente se, todos os seus vértices tiverem grau <strong>n – 1</strong>.</p>
+          <p><strong>Exemplo 7</strong></p>
+          <p style="text-indent: 30px;">Para qualquer, conjunto finito <strong>V</strong>, o grafo <strong>G = (V, ∅)</strong> é regular, pois todos os seus vértices possuem <strong>grau 0</strong>. Esse grafo é o complemento de um grafo completo de vértices em <strong>V</strong>.</p>
+          <p style="text-indent: 30px;">Se considerarmos a aresta <strong>xy</strong> no grafo <strong>G</strong>, ela é contada para obter o grau de <strong>x</strong> e para obter o grau de <strong>y</strong>, de modo que, se somarmos os graus de todos os vértices de um grafo, estaremos contando todas as arestas duas vezes. Assim, podemos enunciar o seguinte resultado:</p>
+          <p style="text-indent: 30px;"><strong><i>“ A soma dos graus de todos os vértices do grafo G = (V, A) é igual a 2.#A.”</i></strong></p>
+          <p style="text-indent: 30px;">Dessa forma, a soma dos graus dos vértices de um grafo é sempre um número par. No caso do grafo do Exemplo 4, que denominamos de <strong>G<sub>4</sub></strong> , a soma dos graus de todos os vértices é <strong>2.#A = 2.6 = 12</strong>, pois o número de elementos de <strong>A</strong> é <strong>6</strong>. Você pode conferir esse resultado somando os graus de cada vértice, como apresentamos no Exemplo 5.</p>
+          <p style="text-indent: 30px;">Ainda sobre as características do vértice de um grafo, temos a definição a seguir:</p>
+          <p style="text-indent: 30px;"><strong><i>“ Um vértice de um grafo é dito ser isolado quando seu grau for 0 e é dito ser uma folha quando seu grau for igual a 1.”</i></strong></p>
+          <p><strong>Exemplo 8</strong></p>
+          <p style="text-indent: 30px;">No grafo esquematizado na Figura 8, temos que <strong>M</strong> e <strong>R</strong> são vértices isolados, enquanto <strong>S</strong>, <strong>P</strong> e <strong>T</strong> são folhas.</p>
+          <img src="images/fig08.jpg"><br><br>
+
+          <!-- 03 -->
+          <p><strong>3. Caminhos e Conexidade</strong></p>
+          <p style="text-indent: 30px;">No tópico 2, vimos que um grafo consiste em um conjunto de pontos interligados por arestas. Você deve recordar que para <strong>V = { 1, 2, 3, 4, 5 }</strong> e <strong>A = { { 1, 2 } , { 1, 4 } , { 2, 3 } , { 2, 5 } , { 3, 4 } , { 4, 5 } }</strong>, o grafo que denominamos de <strong>G<sub>4</sub> = (V, A)</strong> tem complemento <strong>G'<sub>4</sub> = { { 1, 3 } , { 1, 5 } , { 2, 4 } , { 3, 5 } }</strong>. Se observarmos os esquemas gráficos de G4 e G'4 , percebemos que podemos conectar dois vértices quaisquer de <strong>G<sub>4</sub></strong> e usar apenas suas arestas, mas o mesmo não ocorre com <strong>G’<sub>4</sub></strong> , pois não há como ir do vértice 1 para o vértice 4, usando as arestas do grafo, não é verdade? Vamos colocar isso em termos mais precisos: não há uma sequência de arestas cuja primeira tem 1 como extremidade, já que arestas consecutivas na sequência têm uma extremidade em comum cuja última aresta possui 4 como extremidade. De maneira geral, podemos estabelecer a seguinte definição para um caminho em um grafo.</p>
+          <p style="text-indent: 30px;"><strong><i>“ Seja G = (V, A) um grafo. Um caminho em G é qualquer sequência de vértices de G (x<sub>1</sub> , x<sub>2</sub> , ..., x<sub>k</sub>) tal que {x<sub>i</sub> , x<sub>i</sub> +1} ∈ A , para todo i ∈ { 1, 2, ..., k − 1 } . Nesse caso, os vértices x<sub>i</sub> e x<sub>k</sub> são ditos serem extremidades do caminho. Tal caminho pode ser denotado simplesmente por x<sub>1</sub>, x<sub>2</sub>, ... , x<sub>k</sub> . Quando x<sub>1</sub> = x<sub>k</sub> , o caminho é dito ser fechado ou é um circuito.”</i></strong> </p>
+          <p><strong>Exemplo 9</strong></p>
+          <p style="text-indent: 30px;">No grafo <strong>G<sub>2</sub></strong> , do tópico anterior, cujos vértices são os estados do Nordeste do Brasil, temos que <strong>(MA, PI, PE, AL, SE)</strong> é um caminho que liga os vértices <strong>MA</strong> e <strong>SE</strong>. Dois outros caminhos, ligando esses vértices, são <strong>(MA, PI, BA, SE)</strong> e <strong>(MA, PI, MA, PI, PE, AL, PE, AL, SE, AL, SE)</strong>.</p>
+          <p><strong>Exemplo 10</strong></p>
+          <p style="text-indent: 30px;">No grafo <strong>G<sub>4</sub></strong> , temos este caminho fechado ou circuito <strong>(1, 2, 3, 4, 1)</strong> e, em seu complemento <strong>G'<sub>4</sub></strong> , não há caminho com extremidades em <strong>2</strong> e <strong>5</strong>.</p>
+          <p style="text-indent: 30px;">A noção de caminho pode ser usada para estabelecer uma diferença significativa entre <strong>G<sub>4</sub></strong> e seu complemento. Para quaisquer vértices de <strong>G<sub>4</sub></strong> , existe um caminho ligando esses vértices enquanto isso não ocorre em <strong>G'<sub>4</sub></strong> . Os grafos que têm essa propriedade serão chamados de conexos, de acordo com a seguinte definição:</p>
+          <p style="text-indent: 30px;"><strong><i>“ O grafo G = (V, A) é dito ser conexo, se, para quaisquer vértices distintos x e y, existir um caminho em G cujas extremidades são x e y.”</i></strong></p>
+          <p style="text-indent: 30px;">De fato, o grafo <strong>G<sub>4</sub></strong> é conexo, pois podemos estabelecer os seguintes caminhos:</p>
+          <ul>
+            <li>ligando 1 e 2: (1, 2)</li>
+            <li>ligando 1 e 3: (1, 2, 3)</li>
+            <li>ligando 1 e 4: (1, 4)</li>
+            <li>ligando 1 e 5: (1, 2, 5)</li>
+            <li>ligando 2 e 3: (2, 3)</li>
+            <li>ligando 2 e 4: (2, 5, 4)</li>
+            <li>ligando 2 e 5: (2, 5)</li>
+            <li>ligando 3 e 4: (3, 4)</li>
+            <li>ligando 3 e 5: (3, 4, 5)</li>
+            <li>ligando 4 e 5: (4, 5)</li>
+          </ul>
+          <p style="text-indent: 30px;"><strong>Atenção:</strong> Todo grafo completo é conexo</p>
+          <p><strong>Exemplo 11</strong></p>
+          <p style="text-indent: 30px;">Para <strong>V = {1, 2, 3, 4}</strong> e <strong>A = {{1, 2}, {1, 3}, {1, 4}}</strong>, temos que <strong>G = (V, A)</strong> é conexo e seu complemento <strong>G<sub>4</sub></strong> também é conexo.</p>
+          <p style="text-indent: 30px;">Quando fixamos um vértice <strong>x</strong> de um grafo <strong>G</strong> e colecionamos todos os outros vértices que podem ser ligados a <strong>x</strong> e incluímos <strong>x</strong> na lista, temos o que é chamado de componente de <strong>x</strong> em <strong>G</strong>. Uma vez que a justaposição de dois caminhos com uma extremidade em comum é também um caminho, podemos verificar que duas componentes distintas de um grafo são sempre disjuntas e que um grafo é conexo quando ele possui apenas uma componente.</p>
+          <p style="text-indent: 30px;">Seja <strong>G = (V, A)</strong> um grafo. Se ,<strong>W</strong> é um subconjunto de <strong>V</strong>, e <strong>B</strong> é um subconjunto de <strong>A</strong> que possui apenas arestas que ligam pontos de <strong>W</strong>, isto é, se <strong>B ⊂ W<sub>(2)</sub></strong> , dizemos que <strong>H = (W, B)</strong> é um subgrafo de <strong>G</strong> Assim, um subgrafo de um grafo é uma coleção de vértices e arestas desse grafo que ainda é um grafo. Podemos considerar um caminho de um grafo como seu subgrafo. Também é um subgrafo de <strong>G</strong> qualquer uma de suas componentes se considerarmos todas as arestas que ligam os seus vértices.</p>
+          <p><strong>Exemplo 12</strong></p>
+          <p style="text-indent: 30px;">Todo grafo <strong>G</strong> é subgrafo de si próprio e, para qualquer grafo <strong>G = (V, A)</strong>, vale que <strong>H = (W, ∅)</strong> é um subgrafo de <strong>G</strong>, para qualquer <strong>W ⊂ V</strong>.</p>
+          <p><strong>Exemplo 13</strong></p>
+          <p style="text-indent: 30px;">Todo grafo <strong>G = (V, A)</strong> é um subgrafo de <strong>G = (V, V<sub>(2)</sub>)</strong></p>
+          <p><strong>Exemplo 14</strong></p>
+          <p style="text-indent: 30px;">Na Figura 9, temos os esquemas de dois grafos. Se os vértices forem os mesmos, o grafo da esquerda é um subgrafo do da direita. Observe que o da esquerda não é conexo, já o da direita é conexo.</p>
+          <img src="images/fig09.jpg"><br><br>
+          <p style="text-indent: 30px;">Acompanhe o <strong>Exemplo 15</strong>, no qual observamos as principais propriedades sobre os grafos que definimos até aqui.</p>
+          <p><strong>Exemplo 15</strong></p>
+          <p style="text-indent: 30px;">Considere o grafo esquematizado na figura abaixo.</p>
+          <img src="images/fig10.jpg"><br><br>
+          <p style="text-indent: 30px;">Podemos descrevê-lo precisamente, colocando seu conjunto de vértices <strong>V = {A, B, C, D, E, F, G, H, I}</strong> e suas arestas <strong>S = {AG, BD, CD, CH, CI, EG, FH, GI}</strong>. Podemos escrever um caminho ligando dois quaisquer desses vértices, de modo que o grafo <strong>J = (V, S)</strong> é conexo. Os vértices <strong>A, B, E</strong> e <strong>F</strong> têm grau <strong>1</strong>, os vértices ,<strong>D, H</strong> e <strong>I</strong> têm grau <strong>2</strong>, já os vértices <strong>C</strong> e <strong>G</strong> têm grau <strong>3</strong>.</p>
+          <p style="text-indent: 30px;">Se colocarmos <strong>W = {A, C, F, G, H, I}</strong> e <strong>T = {AG, CI, CH, FH, GI}</strong>, temos que <strong>(W, T)</strong> é um subgrafo de <strong>J</strong>. Se colocarmos <strong>X = {A, B, C, D}</strong>, o grafo <strong>(X, T)</strong> não é um subgrafo de <strong>J</strong>, pois, embora tenhamos considerado apenas vértices de <strong>J</strong> e arestas de <strong>J</strong>, o par <strong>(X, T)</strong> não é um grafo. Por fim, observe que o grafo <strong>J</strong> pode ser esquematizado como na Figura 11, uma vez que os vértices são os mesmos e a informação fundamental, que é a de quais vértices estão ligados, é preservada, reforçando que o grafo, mais do que sua representação, é um conjunto de vértices e algumas ligações entre eles.</p>
+          <img src="images/fig11.jpg"><br><br>
+          <p style="text-indent: 30px;">Em um grafo <strong>G</strong>, um circuito que não tem arestas repetidas é dito ser um ciclo. Alternativamente, podemos entender um ciclo em um grafo <strong>G</strong> como um subgrafo de <strong>G</strong>, que é regular e no qual todos os vértices têm <strong>grau 2</strong>. Quando um grafo não possui ciclos, dizemos que ele é uma floresta. Se um grafo é conexo e não possui ciclos, ele é dito ser uma árvore.</p>
+          <p><strong>Exemplo 16</strong></p>
+          <p style="text-indent: 30px;">O grafo <strong>J</strong> do exemplo anterior não possui ciclos e é conexo, suas folhas são os vértices <strong>A, B, E</strong> e <strong>F</strong>.</p>
+          <p><strong>Exemplo 17</strong></p>
+          <p style="text-indent: 30px;">Considere o grafo esquematizado na figura a seguir:</p>
+          <img src="images/fig12.jpg"><br><br>
+          <p style="text-indent: 30px;">Temos que esse é um grafo não conexo, no qual podemos destacar os ciclos <strong>(1, 4, 7, 1)</strong> e <strong>(2, 3, 5, 2)</strong>. Você deve recordar a que, nesse caso, esse grafo não possui vértices isolados. O subgrafo <strong>H = ({1, 4, 6, 7}, {14, 17, 47, 67}</strong> é uma das componentes desse grafo. As folhas desse grafo são os vértices <strong>6</strong> e <strong>8</strong>, uma vez que esses vértices possuem <strong>grau 1</strong>.</p>
+          <p><strong>Exemplo 18</strong></p>
+          <p style="text-indent: 30px;">Todo grafo completo com, no mínimo 3 vértices, possui ciclos. Se <strong>G = (V, A)</strong> e <strong>H = (W, B)</strong> são grafos, então é de imediata verificação que <strong>(V ∪ W, A ∪ B)</strong> é um grafo, o qual chamamos de união de <strong>G</strong> e <strong>H</strong>. Cada grafo pode ser escrito de forma única como união de suas componentes. Dessa forma, perceba que uma floresta pode ser descrita como união de árvores.</p>
+
+          <!-- 04 -->
+          <p><strong>4. Aplicação da Teoria dos Grafos</strong></p>
+          <p style="text-indent: 30px;">Neste tópico, encerraremos a parte de Grafos, aplicando alguns conceitos da Teoria dos Grafos a problemas que não possuem a palavra grafo em seu enunciado, mas, como será visto, associar a situação a um grafo, transferindo o problema, fará com que consigamos encontrar uma solução de forma bem simples. Vejamos esses problemas.</p>
+          <p><strong>Problema 1</strong></p>
+          <p style="text-indent: 30px;">Considere o seguinte arranjo de cinco retângulos com alguns pontos marcados nos seus lados onde há passagens entre os retângulos</p>
+          <img src="images/fig13.jpg"><br><br>
+          <p style="text-indent: 30px;">É possível desenhar uma linha contínua, isto é, sem tirar a caneta do papel, que atravesse todas as passagens dessa figura uma única vez?</p>
+          <p><strong>Solução</strong></p>
+          <p style="text-indent: 30px;">Para iniciar a resolução desse problema, podemos associar cada retângulo a um ponto e ligar dois desses pontos com uma linha para cada passagem que houver entre eles. Colocamos também um ponto para representar a região externa E, obtendo a Figura 14.</p>
+          <img src="images/fig14.jpg"><br><br>
+          <p style="text-indent: 30px;">Assim como no caso das pontes de Königsberg, podemos observar que a quantidade de linhas que saem de cada vértice que não é extremidade da linha deve ser par. Mas temos o ponto E, de onde saem 9 linhas, três pontos de onde saem 5 linhas, e dois de onde saem 4 linhas. Assim, o ponto E e outros três deveriam ser extremidades do caminho, mas ele só tem um começo e um fim, de modo que uma linha, com as condições pedidas, não pode ser traçada.</p>
+          <p><strong>Problema 2</strong></p>
+          <p style="text-indent: 30px;">Mostre que, em um grupo qualquer de n pessoas, existem pelo menos duas que possuem o mesmo número de conhecidos.</p>
+          <p><strong>Solução</strong></p>
+          <p style="text-indent: 30px;">Supondo que a relação de conhecer outra pessoa seja recíproca, isto é, que, se A conhece B, então B conhece A, podemos considerar n pontos P<sub>1</sub> , P<sub>2</sub> , …, Pn no plano e linhas entre os pontos P<sub>i</sub> e P<sub>j</sub> para indicar que a pessoa P<sub>i</sub> conhece a pessoa P<sub>j</sub>. Dessa forma, temos um grafo com n vértices e algumas arestas. A quantidade de pessoas que P<sub>i</sub> conhece é exatamente o grau de P<sub>j</sub> . Com essa descrição, o problema se torna o de provar que, em um grafo qualquer, existem pelo menos dois vértices com o mesmo grau. Como são n vértices, as possibilidades de graus são 0, 1, 2, ... n − 1 . Se algum vértice tem grau 0, isto é, se há algum vértice isolado, então nenhum vértice tem grau n – 1, pois isso significaria que esse vértice está ligado a todos os outros, o que não ocorre. Assim, nesse caso, teríamos como possibilidades de grau para os vértices os números 0, 1, 2, …, n – 2, que são n – 1 números. Assim, a função que associa cada vértice ao seu grau tem domínio com n elementos e contradomínio com n – 1 elementos e, pelo Princípio de Dirichlet, não pode ser injetiva, isto é, existem dois vértices com o mesmo grau. Por outro lado, se for o caso de não haver vértices isolados, as possibilidades de grau passam a ser 1, 2, …, n – 1, que são n – 1 números. Assim, também, nesse caso, a função que associa cada vértice ao seu grau tem domínio com n elementos e contradomínio com n – 1 elementos e, portanto, não pode ser injetiva, isto é, existem dois vértices com o mesmo grau. Dessa forma, analisando todas as possibilidades, vemos que há dois vértices com o mesmo grau. Voltando ao problema inicial, isso significa que há pelo menos duas pessoas que têm a mesma quantidade de conhecidos em qualquer grupo.</p>
+          <p><strong>Problema 3</strong></p>
+          <p style="text-indent: 30px;">São marcados 15 pontos no plano. É possível ligar esses pontos de tal forma que, ao final do processo, cada ponto esteja ligado a exatamente 5 outros pontos?</p>
+          <p><strong>Solução</strong></p>
+          <p style="text-indent: 30px;">Se considerarmos o grafo cujos vértices são os pontos dados e cujas arestas sejam as ligações entre esses pontos, uma marcação como a pedida no problema consiste em um grafo regular onde cada vértice tem grau 5. Nesse caso, por um lado, a soma de todos os graus seria 15.5, isto é, 75. Por outro lado, a soma dos graus de todos os vértices de um grafo é igual ao dobro do número de arestas, isto é, teríamos 75 = 2.#A, o que nunca ocorre, uma vez que 75 é ímpar. Assim, é impossível traçar linhas com as características do enunciado.</p>
+          <p><strong>Problema 4</strong></p>
+          <p style="text-indent: 30px;">Em uma festa, os convidados se cumprimentaram com apertos de mão. Mostre que a quantidade de pessoas que apertaram mãos um número ímpar de vezes é par.</p>
+          <p><strong>Solução</strong></p>
+          <p style="text-indent: 30px;">Se considerarmos o grafo em que cada ponto representa um convidado da festa e uma aresta entre dois pontos significando que os convidados correspondentes se cumprimentaram, temos que o grau de cada ponto é exatamente a quantidade de vezes que a pessoa correspondente participou de um aperto de mãos. Assim, o problema se torna o de provar que, em qualquer grafo, a quantidade de vértices que têm grau ímpar é um número par. Se somarmos os graus de todos os vértices de grau par, obteremos um número par. Como a soma de todos os graus é um número par, concluímos que a soma dos graus de todos os vértices que têm grau ímpar é um número par também. A soma de dois números ímpares é um número par. Observe que, se a quantidade de vértices de grau ímpar fosse ímpar, esses vértices poderiam ser agrupados de dois em dois, resultando em soma par, e sobraria um vértice de grau ímpar, resultando em soma total sendo ímpar, o que nunca ocorre em nenhum grafo. Portanto, em qualquer grafo, a quantidade de vértices que possuem grau ímpar deve ser um número par, o que demonstra o problema.</p>
+          <p><strong>Problema 5</strong></p>
+          <p style="text-indent: 30px;">As cidades de um país são ligadas por estradas e é possível ir de uma cidade a qualquer outra usando essas estradas, mesmo que atravessando outras cidades no percurso. Mostre que, se a quantidade de estradas que saem de cada cidade é um número par, então existe uma cidade no país em que é possível sair e voltar passando por todas as estradas uma única vez.</p>
+          <p><strong>Solução</strong></p>
+          <p style="text-indent: 30px;">Consideremos o grafo G que consiste de um vértice para cada cidade do país e uma aresta ligando dois desses pontos quando houver uma estrada ligando as cidades correspondentes. Como a quantidade de estradas que sai de cada cidade é par, temos que o grau de cada vértice de G é par. Sair de uma cidade e voltar para ela sem repetir estradas consiste em exibir um caminho fechado que não repete arestas. Assim, o problema consiste em, dado um grafo conexo G, em que todos os vértices têm grau par, mostrar que é possível exibir um caminho fechado, isto é, um circuito em G que não possui arestas repetidas, ou seja, um ciclo, que passa por todas as arestas. Comecemos o caminho num determinado vértice P e sigamos segundo uma aresta não usada para outro vértice até regressar de novo a P. Note que isso é sempre possível, já que cada vértice, aonde chegamos, possui necessariamente uma saída, exceto o vértice P. Obtemos, assim, um circuito. Se todas as arestas forem usadas nesse processo, teríamos o caminho desejado. Se houve arestas não usadas, a conexidade do grafo diz que, nesse caminho, há um vértice onde outra aresta podia ser tomada. Denotamos esse vértice por Q. Podemos, dessa forma, chegar a Q pelo caminho obtido na primeira etapa e sair de Q por uma aresta que não foi usada previamente. Como grau de Q é par, é possível regressar a Q por outra aresta que não tinha sido tomada no caminho original. Se todas as arestas forem agora utilizadas, encontraríamos um circuito com as condições desejadas, partindo de P e, procedendo como inicialmente até Q, em seguida, tomamos o caminho adicional que vai de Q a Q, e regressamos a P como tínhamos feito no primeiro caminho. Caso ainda sobrem arestas por percorrer, repetimos o processo. Como a quantidade de arestas é finita, esses passos conduzirão a uma solução para o problema.</p>
+          <p><strong>Problema 6</strong></p>
+          <p style="text-indent: 30px;">Hamilton saiu de Londres e conheceu várias cidades pelo mundo, regressando a Londres no final da jornada. Os deslocamentos entre as cidades foram feitos sempre de avião e em cada bilhete aparecia o nome da origem e do destino da viagem apenas uma vez. Algumas cidades foram visitadas mais de uma vez, embora nenhum trecho entre duas cidades foi repetido. Mostre que o número total de vezes em que aparece o nome de uma cidade qualquer nos bilhetes de Hamilton é par.</p>
+          <p><strong>Solução</strong></p>
+          <p style="text-indent: 30px;">Nesse problema, se associarmos cada cidade visitada por Hamilton a um ponto e ligarmos dois desses pontos quando ele realizar um voo entre elas, temos que o grafo correspondente admite um caminho fechado que passa por todos os vértices. A quantidade de vezes em que uma cidade aparece nos bilhetes é exatamente o grau do vértice correspondente. Assim, nosso problema passa a ser o de mostrar que, se um grafo conexo G admite um circuito que passa por todas as arestas uma única vez, o grau de todos os vértices é par. Mas isso é bem simples, pois, se o grafo admite um caminho com as propriedades dadas, é verdade que, em cada vértice, esse caminho deve chegar por uma aresta e partir por outra diferente. Assim, o número de arestas que se liga em cada vértice tem que ser par.</p>
+
+          <h2>Exercícios</h2>
+          <p>Agora teste o seu grau de aproveitamento do conteúdo resolvendo os exercícios a seguir</p>
+          <p><strong>GRAFOS</strong></p>
+          <p style="text-indent: 30px;">1. Qual alternativa representa as arestas do grafo abaixo?</p>
+          <img src="images/grafos_ex01.jpg"><br><br>
+          <ul>
+            <li>a) A = {ab, bc, ca, cb}</li>
+            <li>b) A = {ab, ca}</li>
+            <li>c) A = {ab, bc, ca}</li>
+            <li>d) A = {ab, cb, ac, ba}</li>
+          </ul>
+          <p style="text-indent: 30px;">2. Qual alternativa representa as arestas do grafo abaixo?</p>
+          <img src="images/grafos_ex02.jpg"><br><br>
+          <ul>
+            <li>a) A = {ab, bc, cd, de, ba, ac, ed}</li>
+            <li>b) A = {ab, bc, ac, cd, ad, ca, ae}</li>
+            <li>c) A = {ab, ba, ac, ed, ad, de, ae}</li>
+            <li>d) A = {ab, bc, ac, cd, ad, de, ae}</li>
+          </ul>
+          <p style="text-indent: 30px;">3. Qual alternativa representa as arestas do grafo abaixo?</p>
+          <img src="images/grafos_ex03.jpg"><br><br>
+          <ul>
+            <li>a) A = {ac, ad, ad, be, ec}</li>
+            <li>b) A = {ac, ad, bd, be, ca}</li>
+            <li>c) A = {ac, ad, bd, ed, ec}</li>
+            <li>d) A = {ac, ad, bd, be, ec}</li>
+          </ul>
+          <p style="text-indent: 30px;">4. Para <strong>V = {a, b, c, d, e}</strong> e <strong>A = {ab, ae, bc, cd, de}</strong>, o grafo <strong>G<sub>4</sub> = {V, A}</strong> não é completo. Assinale a alternativa que corresponde ao seu complemento:</p>
+          <img src="images/grafos_ex04.jpg"><br><br>
+          <ul>
+            <li>a) G'<sub>4</sub> = {ac, ad, be, bd, ce}</li>
+            <li>b) G'<sub>4</sub> = {ac, ad, bd, be, ca}</li>
+            <li>c) G'<sub>4</sub> = {ac, ad, bd, ed, ec}</li>
+            <li>d) G'<sub>4</sub> = {ac, ad, bd, be, ec}</li>
+          </ul>
+          <p style="text-indent: 30px;">5. Dado o seguinte grafo <strong>G<sub>5</sub> = {V, A}</strong> responda as seguintes questões:</p>
+          <img src="images/grafos_ex05.jpg"><br><br>
+          <ul>
+            <li>1º -  Quantos graus tem o vértice 3?</li>
+            <ul><br>
+              <li>a) 3</li>
+              <li>b) 4</li>
+              <li>c) 2</li>
+              <li>d) 1</li>
+            </ul><br>
+            <li>2º - Pode-se dizer que o grafo acima é regular?</li>
+            <ul><br>
+              <li>a) Sim, pois é também um grafo completo</li>
+              <li>b) Não, pois não é um grafo completo.</li>
+              <li>c) Sim, porém não é um grafo completo</li>
+              <li>d) Não, porém é um grafo completo</li>
+            </ul><br>
+            <li>3 º - Qual das alternativas corresponde ao grafo complemento do grafo dado acima?</li>
+            <ul><br>
+              <li>a) G’<sub>5</sub> = {{1,3}, {2,5}, {3,6}}</li>
+              <li>b) G’<sub>5</sub> = {{1,4}, {2,4}, {3,4}}</li>
+              <li>c) G’<sub>5</sub> = {{1,3}, {2,6}, {3,6}}</li>
+              <li>d) G’<sub>5</sub> = {{1,4}, {2,5}, {3,6}}</li>
+            </ul><br>
+          </ul>
+          <p style="text-indent: 30px;">6. Dado o seguinte grafo, responda as seguintes questões:</p>
+          <img src="images/grafos_ex06.jpg"><br><br>
+          <ul>
+            <li>1º -  Quais vértices não são ditos isolados?</li>
+            <ul><br>
+              <li>a) V<sub>a</sub> , V<sub>d</sub> , V<sub>h</sub> , V<sub>e</sub></li>
+              <li>b) V<sub>a</sub> , V<sub>c</sub> , V<sub>d</sub> , V<sub>e</sub></li>
+              <li>c) V<sub>a</sub> , V<sub>c</sub> , V<sub>h</sub> , V<sub>e</sub></li>
+              <li>d) V<sub>a</sub> , V<sub>c</sub> , V<sub>h</sub> , V<sub>d</sub></li>
+            </ul><br>
+            <li>2º - Quais vértices são ditos folhas?</li>
+            <ul><br>
+              <li>a) V<sub>a</sub> , V<sub>b</sub> , V<sub>e</sub> , V<sub>g</sub> , V<sub>h</sub></li>
+              <li>b) V<sub>a</sub> , V<sub>d</sub> , V<sub>e</sub> , V<sub>c</sub> , V<sub>h</sub></li>
+              <li>c) V<sub>f</sub> , V<sub>b</sub> , V<sub>c</sub> , V<sub>g</sub> , V<sub>h</sub></li>
+              <li>d) V<sub>a</sub> , V<sub>b</sub> , V<sub>d</sub> , V<sub>g</sub> , V<sub>f</sub></li>
+            </ul>
+          </ul>
+          <p style="text-indent: 30px;">7. Sobre o grafo a seguir, é correto afirmar que:</p>
+          <img src="images/grafos_ex07.jpg"><br><br>
+          <ul>
+            <li>a) É um grafo conexo; completo; irregular; possui um vértice folha.</li>
+            <li>b) É um grafo conexo; incompleto; irregular; não possui vértice folha.</li>
+            <li>c) Não é conexo; completo; regular; possui um vértice folha.</li>
+            <li>d) É um grafo conexo, completo; regular; possui um vértice folha.</li>
+          </ul>
+
+          <h2>Gabarito</h2>
+          <p>Confira suas respostas</p>
+          <ul>
+            <li>1) Resposta: c) A = {ab, bc, ca}</li>
+            <li>2) Resposta: d) A = {ab, bc, ac, cd, ad, de, ae}</li>
+            <li>3) Resposta: d) A = {ac, ad, bd, be, ec}</li>
+            <li>4) Resposta: a) G'<sub>4</sub> = {ac, ad, be, bd, ce}</li>
+            <li>5) Respostas: 
+              <ul><br>
+                <li>1º - b) 4</li>
+                <li>2º - c) Sim, porém não é um grafo completo</li>
+                <li>3º - d) G’<sub>5</sub> = {{1,4}, {2,5}, {3,6}}</li>
+              </ul><br>
+            </li>
+            <li>6) Respostas:
+              <ul><br>
+                <li>1º - c) V<sub>a</sub> , V<sub>c</sub> , V<sub>h</sub> , V<sub>e</sub></li>
+                <li>2º - a) V<sub>a</sub> , V<sub>b</sub> , V<sub>e</sub> , V<sub>g</sub> , V<sub>h</sub></li>
+              </ul><br>
+            </li>
+            <li>7) Resposta: a) É um grafo conexo; completo; irregular; possui um vértice folha.</li>
+          </ul>
+
+        </div>
+        
+      </div>
+      
+
+      
+
+        
+
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>
+
