@@ -37,6 +37,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ## Home Page em HTML
 
+![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/teste.gif?raw=true)
 
 ## Conteúdos em HTML
 
