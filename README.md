@@ -8,7 +8,7 @@ Estabelecemos para esta entrega, a aplicação do seguinte card.
 
 ## Sprint Backlog
 
-Lista de tarefas da sprint.
+Lista de tarefas da sprint por grau de relevância.
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/sprints_backlog.002.jpeg)
 
