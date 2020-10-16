@@ -40,7 +40,6 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ## Conteúdos em HTML
 
-![alt-text]()
 
 ## Conteúdos em Texto
 
