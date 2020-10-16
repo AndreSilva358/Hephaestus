@@ -23,7 +23,7 @@ Aqui você pode acompanhar como foi e como está sendo cada umas das entregas.
 
 ## Objetivo
 
-Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e apresentar os conteúdos de Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta com exercícios e testes em formato de texto. Além dos conteúdos em texto, entregaremos parcialmente os mesmos em HTML, assim como a home page (página inicial) neste mesmo formato.
+Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e apresentar os conteúdos de Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta com exercícios e testes em formato de texto. Além dos conteúdos em texto, entregaremos os mesmos em HTML, assim como a home page (página inicial) neste mesmo formato.
 
 ## Aplicação
 
@@ -32,8 +32,8 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 ## Valores Entregues
 
 - Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etária, e que passasse de forma clara e adequada o conhecimento esperado, atraindo assim um número significativo de usuários. 
-- Desenvolvemos parcialmente as páginas dos conteúdos em HTML.
-- E a home page (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência do andamento do projeto.
+- Desenvolvemos as páginas dos conteúdos em HTML.
+- E a home page (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência no andamento do projeto.
 
 ## Conteúdos em HTML
 
@@ -50,6 +50,6 @@ Obs.: Os conteúdos em texto podem demorar alguns segundos para abrir, em razão
 
 - [Língua Portuguesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Portuguesa.pdf)
 
-- [Lógica de Programação]()
+- [Lógica de Programação](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o.pdf)
 
-- [Matemática Discreta]()
+- [Matemática Discreta](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Matem%C3%A1tica%20Discreta.pdf)
