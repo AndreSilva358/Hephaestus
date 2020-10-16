@@ -51,7 +51,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ### - Língua Inglesa
 
-
+![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/ingles_pag01.gif)
 
 ### - Língua Portuguesa
 
@@ -63,7 +63,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ### - Matemática Discreta
 
-
+![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/mat_disc_pag01.gif)
 
 ## Conteúdos em Texto
 
