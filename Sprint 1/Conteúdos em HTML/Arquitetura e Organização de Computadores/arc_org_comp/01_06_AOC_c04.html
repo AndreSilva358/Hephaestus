@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+   
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo AOC</title>
+
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu " aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <!-- Aqui começa o conteúdo -->  
+          <div>
+            <br/>
+            <h3>Microprocessadores </h3>
+            <br/>
+            <br/>
+            <p>No surgimento dos computadores, a CPU era composta por vários componentes separados. Com a evolução da eletrônica, esses componentes foram integrados em um único chip (circuito integrado) chamado microprocessador. </p>
+            <p>Microprocessador é um dispositivo lógico programável em um único chip de silício, concebido sob a tecnologia VLSI (Very Large Scale Integration – Escala de Integração Muito Alta). Age sob o controle de um programa armazenado na memória RAM, executando operações aritméticas, lógica booleana, tomada de decisão, além de entrada e saída, permitindo a comunicação com outros dispositivos periféricos. </p>
+            <p>Com o avanço da microeletrônica, componentes e características foram incorporados aos microprocessadores, sendo atualmente constituídos basicamente por: </p>
+            <ul>
+              <li>Unidade de Controle (UC) que extrai instruções da memória RAM, as decodifica e executa, requisitando a ULA quando necessário;  </li>
+              <li>Unidade lógica e aritmética (ULA) que executa as operações aritméticas e lógicas;  </li>
+              <li>Registradores que armazenam dados e instruções para processamento; e  </li>
+              <li>Memória cache que auxilia o processador na busca por dados na RAM, acelerando o processameto.</li>
+            </ul>
+            <br/>
+            <br/>
+            <b>Microcomputador X Workstation</b>
+            <br/>
+            <p>Microcomputador IBM-PC (IBM - Personal Computer) surgiu a partir da evolução dos microprocessadores, correspondendo a um sistema computacional completo, constituído por: 
+            <ul>	
+            	<li>Microprocessador; </li>
+            	<li>Memória primária de armazenamento de dados e programas (RAM);</li>
+            	<li>Memória secundária de armazenamento (disco rígido, dispositivos óticos, fita magnética etc.);</li>
+            	<li>Dispositivos convencionais de entrada (teclado, mouse) e saída (monitor, impressora, caixas de som). </li>
+            </ul>
+            <p>Workstation é um microcomputador que além das características normais da arquitetura de microcomputador, apresenta: </p>
+            <ul>
+            	<li>Processador (ou vários) de alta capacidade de processamento de operações matemáticas em ponto flutuante;</li>
+            	<li>Alta resolução gráfica;</li>
+            	<li>Grande capacidade de armazenamento;</li>
+            	<li>Utilizado em aplicações que requerem grande poder de processamento (aplicações científicas, Autocad, Catia, Solid Edge etc.).</li>
+            </ul>
+            <br/>
+            <br/>
+            <b>Sistemas Microprocessados</b>
+            <br/>
+            <p>Os microprocessadores de um modo geral podem ser: </p>
+            <p>Processadores dedicados: fabricados para executarem tarefas específicas, como criptografia, processamento vetorial e gráfico etc. Possuem um conjunto limitado de instruções programadas em ROM – flash e normalmente são empregados embarcados em algum dispositivo com a intenção de controlar alguma operação específica. Exemplos: Forno de micro-ondas: controle de tempo, temperatura, potência; </p>
+            <ul>
+            	<li>TV: gravação automática de programa em um HD para posterior visualização; </li>
+            	<li>Carro: controle da mistura ar/combustível; </li>
+            	<li>Industrial: controle de pressão em caldeiras; </li>
+            	<li>Aviões: centenas de processadores executando tarefas importantes de controle dos sistemas do avião. </li>
+            	<li>GPUs: microprocessadores geralmente com memória dedicada e especialmente desenvolvidos para cálculos gráficos. </li>
+            </ul>
+            <p>Processadores de uso geral: Utilizados em computadores de uso geral com programas e dados armazenados em RAM. </p>
+            <br/>
+            <br/>
+            <b>Evolução dos Microprocessadores</b>
+            <br/>
+            <p>Inventados na década de 70 pela Intel, incorporado pela IBM (Intel 8088) em sua invenção, o IBMPC em 1980, definindo a família x86 da Intel. </p>
+            <p>Apple lançou seu PC Macintosh com microprocessador diferente da família Intel, utilizando a família Motorola 68.000. </p>
+            <p>Processadores da família Intel x86 são compatíveis. Processadores AMD também são família x86, ou seja, possuem conjunto de instruções x86. </p>
+            <p>O desempenho de processadores é medido em MIPS (Milhões de Instruções Por Segundo). </p>
+            <p>O projeto do processador, define o seu conjunto “set” de instruções (conjunto de instruções elementares que o hardware é capaz de executar). </p>
+            <p>O conjunto de instruções é uma das mais básicas decisões a ser tomada pelo Engenheiro de projeto. Quanto menor e mais simples for este conjunto de instruções, mais rápido pode ser realizado o ciclo de instruções do processador. </p>
+            <p>O conjunto de instruções embutido nos circuitos da UC, é uma lista de todas as operações que a CPU foi projetada para executar. </p>
+            <br/>
+            <br/>
+            <b>Últimos desenvolvimentos</b>
+            <br/>
+            <p>O Pentium, lançado em 2000 tinha frequência de trabalho (clock) por volta de 2 Ghz. A arquitetura Core desenvolveu fortemente o conceito de processadores com múltiplos núcleos e múltiplas filas de tarefas (threads). Hoje o clock mal chega a 4 Ghz, mas os processadores podem ter 4, 6, 8, 10, 12, 24 ou mais núcleos. </p>
+            <p>O XEON E7-8894, de sétima geração Core, tem 24 núcleos que operam a 3.4 Ghz! O Pentium foi desenvolvido com tecnologia de 90 nanômetros (10-9 m) e hoje trabalha-se com 14 nanômetros e já estão em desenvolvimento processadores 10 nm, 7 nm e até 5 nm. </p>
+            <p>Mais informações na página http://ark.intel.com</p>
+            <br/>
+            <br/>
+            <b>Processadores RISC e CISC</b>
+            <br/>
+            <p>Processadores, conforme o projeto do set de instruções desenvolvido pelo fabricante, apresentamse como: CISC: Complex Instruction Set Computer RISC: Reduced Instruction Set Computer </p>
+            <br/>
+            <br/>
+            <b>CISC</b>
+            <br/>
+            <p>Caracteriza-se por possuir um grande conjunto de instruções, incluindo as complexas e realizam tarefas complexas. </p>
+            <p>Facilita o trabalho do programador, uma única instrução realiza uma função complexa, que de outro modo necessitaria de várias instruções do programa para ser realizada, assim, os programas são </p>
+            <p>Menores, os programadores não precisam escrever um conjunto grande de instruções para realizar uma tarefa complexa. </p>
+            <p>Uma característica é que instruções complexas realizam tarefas muito especificas. </p>
+            <p>Os circuitos da CPU (UC e ULA) são muito complicados, maiores, mais difícil fabricação e mais caro. </p>
+            <p>Programação feita em dois níveis. Instruções complexas são transformadas em um conjunto de instruções simples (micro-operações), armazenadas na micro memória na UC. </p>
+            <p>Exemplos de processadores CISC: Intel 80386 e o 80486. </p>
+            <p>Obs.: Pesquisa IBM concluiu que 10% das instruções realizavam 90% das tarefas. </p>
+            <br/>
+            <br/>
+            <b>RISC</b>
+            <br/>
+            <p>Caracteriza-se por possuir conjunto de instruções pequeno e simples, realizam funções simples. A grande maioria delas executada em apenas um ciclo de clock. </p>
+            <p>Maioria não necessita de decodificação, são praticamente as instruções da linguagem de máquina, tornando o processador mais rápido. As instruções complexas são simuladas utilizando um subconjunto de instruções simples. Por ser mais simples são mais genéricas e podem ser associadas para realizar funções complexas. </p>
+            <p>A programação é mais difícil e demorada, porque a maioria das instruções complexas é simulada utilizando instruções simples. Os programas são maiores e usam menos eficientemente a memória. </p>
+            <p>Outra vantagem dos processadores RISC, é que, por terem um menor número de circuitos internos, podem trabalhar a frequências mais altas. </p>
+            <p>Resumidamente, RISC tem set de instruções menores, processadores menores e menor custo. </p>
+            <p>Embora tenha vantagens, o RISC não substituiu o CISC, pois apresenta o inconveniente de utilizar grande quantidade de memória. Com o passar do tempo e o barateamento das memórias o RISC passou a ser usado em workstations. Processadores atuais se utilizam das duas características.</p>
+            <br/>
+            <br/>
+            <b>Resumo diferenças CISC x RISC</b>
+            <br/>
+            <p>Na execução de instruções complexas os processadores CISC se saem melhor. Por isso, ao invés da vitória de uma das duas tecnologias, atualmente vemos processadores híbridos, que são essencialmente processadores CISC, mas incorporam muitos recursos encontrados nos processadores RISC (ou vice-versa). </p>
+            <br/>
+            <br/>
+            <b>Sistemas Multiprocessados </b>
+            <br/>
+            <p>Sistemas multiprocessados são sistemas com múltiplos processadores e caracterizados pela execução simultânea de duas ou mais instruções, utilizando os processadores. Sistemas multiprocessados possibilitam que vários programas sejam executados em paralelo, ou que um programa tenha duas ou mais de suas instruções executadas em paralelo. </p>
+            <p>O multiprocessamento pode ocorrer em um único processador (time sharing), em processadores que compartilham uma mesma memória primária (fortemente acoplados) ou em múltiplos computadores independentes, com o uso de sistemas operacionais de rede ou sistemas operacionais distribuídos (fracamente acoplados). No caso de computadores independentes, cada um tem seus próprios recursos. </p>
+            <br/>
+            <br/>
+            <b>Sistemas Fortemente e Fracamente Acoplados </b>
+            <br/>
+            <p>Sistemas multiprocessados podem ser classificados como fortemente acoplados e fracamente acoplados, conforme a utilização de memória e a forma de comunicação entre os processadores. </p>
+            <p>Fortemente acoplados são classificados em Simétricos e Assimétricos. São sistemas com mais de um processador ligado no mesmo barramento. Existe processamento paralelo, aumento da capacidade de processamento, compartilhamento da memória e de periféricos e também tolerância a falhas (se um processador parar, o outro continua funcionando). </p>
+            <p>Fracamente acoplados os processadores estão em diferentes máquinas e caracterizam-se por possuir sistemas operacionais de rede e sistemas operacionais distribuídos. Dependem dos recursos de rede para distribuir as tarefas de processamento, ou seja, as CPUs estão em computadores diferentes. Cada computador tem seu próprio sistema operacional e gerência seus próprios recursos. </p>
+            <br/>
+            <br/>
+            <b>Multiprocessamento Simétrico </b>
+            <br/>
+            <p>Sistemas Simétricos SMP (Symmetric Multi-Processor - multiprocessador simétrico), são uma forma de paralelismo, onde um grupo de processadores trabalha em conjunto, compartilhando uma única memória através de um único barramento. É possível qualquer processador executar uma parte do processo. </p>
+            <p>Os sistemas SMP requerem alguma forma de memória compartilhada e suporte do sistema operacional, além de aplicações que saibam tirar proveito do paralelismo. Os sistemas modernos como Linux, Windows, Mac OS e membros da família Unix suportam SMP. </p>
+            <br/>
+            <br/>
+            <b>Multiprocessamento Assimétrico </b>
+            <br/>
+            <p>Nos sistemas de multiprocessamento assimétrico, os processadores não são tratados igualmente. Existe um processador mestre que controla o sistema, distribuindo tarefas para os processadores escravos. </p>
+            <p>Solução antiga que permitia adicionar mais um processador a um sistema desenvolvido para trabalhar com um único processador. Essa solução foi usada nos anos 1960 e 1970, como exemplo existe o modelo IBM System/370, onde era possível adicionar mais um processador. </p>
+            <br/>
+            <br/>
+            <b>Sistemas Operacionais de Rede </b>
+            <br/>
+            <p>Network Operating System (NOS) ou Sistema Operacional de Rede (SOR) são sistemas independentes, cada um rodando numa máquina e em rede. Um sistema operacional de rede propicia protocolos para comunicação e transferência de dados entre os usuários e servidores da rede. Cada nó na rede é independente e executa suas próprias aplicações. </p>
+            <p>Usado para gerenciar a preparação, transmissão e recepção de dados entre computadores em rede. Com o NOS, o acesso a recursos em rede se passa de forma transparente para o usuário, com a sensação de que os recursos são locais. </p>
+            <p>Localmente, o usuário continua com o seu sistema operacional, e o NOS pode ser visto como uma camada adicional que facilita o acesso aos recursos em rede. </p>
+            <br/>
+            <br/>
+            <b>Sistemas Operacionais Distribuídos </b>
+            <br/>
+            <p>Sistema Operacional Distribuído é composto por uma coleção independente de computadores em rede, mas que para o usuário aparenta ser um só. O hardware é composto de máquinas autônomas e o software fornece ao usuário a abstração de ser uma única máquina. O sistema operacional que roda nas máquinas dessa rede é que distribui a tarefa de processamento entre os computadores, sem o compartilhamento de memória entre elas. </p>
+            <p>Conceitualmente, um Sistema Operacional Distribuído integra cooperativamente as tarefas de processamento nos computadores que compõem a rede de forma transparente para os usuários, que têm a sensação de que o sistema se comporta como uma arquitetura multiprocessada fortemente acoplada. </p>
+            <br/>
+            <br/>
+            <b>Funções Básicas do Processador </b>
+            <br/>
+            <p>As atividades do processador estão divididas em duas categorias: Função de processamento e Função de controle. </p>
+            <p>O processador busca, interpreta e controla a execução das instruções e controla os componentes do sistema. Executa as instruções sequencialmente, processo que pode ser lento e pouco eficiente. </p>
+            <p>Para melhorar a performance, processadores modernos utilizam técnicas de paralelismo: Ex. </p>
+            <p>Pipelining: execução de instruções em paralelo. Inicia a execução da próxima instrução antes de terminar a execução da anterior. </p>
+            <br/>
+            <br/>
+            <b>Execução de programas </b>
+            <br/>
+            <p>Um programa executável é constituído de um conjunto de instruções de máquina sequencialmente organizadas que no momento da execução são carregadas para memória principal RAM. </p>
+            <p>Processadores são constituídos de circuitos capazes de realizar operações primitivas como: </p>
+            <ul>
+            	<li>Somar, subtrair, fazer deslocamentos de bits (shift); </li>
+            	<li>Mover um dado de um local de armazenamento para outro; </li>
+            	<li>Transferir um dado para um dispositivo de saída; </li>
+            	<li>Etc. </li>
+            </ul>
+            <p>Para que um programa seja executado é necessário que as instruções estejam armazenadas em células sucessivas na Memória Principal RAM e o endereço da primeira instrução esteja armazenado no Registrador PC (Program Counter) no processador. </p>
+            <p>O ciclo de instrução se constitui de: </p>
+            <ul>
+            	<li>Busca a instrução na RAM, cujo endereço está armazenado no registrador PC; </li>
+            	<li>Interpreta a instrução; </li>
+            	<li>Busca dos dados (operandos) da RAM para o processador;</li>
+            	<li>Executa efetivamente a operação com os dados </li>
+            	<li>Armazena o resultado na RAM no local definido na instrução; </li>
+            	<li>Incrementa o registrador Program Counter; </li>
+            	<li>Reinicia o processo buscando a nova instrução indicada pelo PC.  </li>
+            </ul>
+            <br/>
+            <br/>
+            <b>Pipeline </b>
+            <br/>
+            <p>As fases de busca, interpretação e execução de instruções, nos primeiros computadores eram realizadas em série, ou seja, a instrução “n” precisava concluir todas essas fases antes que instrução “n+1” pudesse iniciar suas próprias fases. </p>
+            <p>Computadores modernos utilizam uma técnica chamada Pipeline para melhorar o throughput (número total de instruções realizadas em cada período), onde fases do ciclo de instrução são realizadas simultaneamente. </p>
+            <p>Assim, a próxima instrução pode iniciar antes que a anterior seja concluída.</p>
+            <br/>
+            <br/>
+            <b>Processador - Palavra </b>
+            <br/>
+            <p>Palavra é a unidade natural de informação usada por cada tipo de computador. É uma sequência de bits de tamanho fixo que é processada em conjunto. O número de bits em uma palavra (tamanho da palavra) é uma característica importante da arquitetura do computador. Ela indica a unidade de transferência entre a CPU e memória principal. </p>
+            <p>A capacidade de processamento de uma CPU é influenciada pelo tamanho da palavra. O tamanho da palavra determina o tamanho da ULA, do barramento interno e dos registradores. </p>
+            <p>Comparação de processadores em relação ao tamanho da palavra. </p>
+            <b>Exemplo: </b>
+            <p>Operação soma de A + B </p>
+            <p>onde: A= 3A25 </p>
+            <p>B = 172C </p>
+            <p>A e B são hexadecimais de 4 dígitos com cada dígito representados por 4 bits, ambos inteiros, sem sinal e, portanto, com tamanho de 16 bits. </p>
+            <br/>
+            <br/>
+            <b>Processador com palavra de 8 bits </b>
+            <br/>
+            <p>A soma de A + B será realizada em duas etapas, 25 + 2C e 3A + 17 e depois juntados, pois 3A25 e 172C possuem 16 bits e não cabem em uma palavra (barramento) de 8 bits.  </p>
+            <br/>
+            <br/>
+            <b>Processador com palavra de 16 bits </b>
+            <br/>
+            <p>A operação soma dos mesmos números é realizada em uma única etapa.  </p>
+            <p>Para melhor desempenho, o Barramento de Dados deve ter uma palavra de largura, se a largura do barramento for menor, por exemplo metade da palavra, seriam necessários dois ciclos de tempo do barramento para transporte de uma palavra. </p>
+            <p>O tamanho da palavra influencia também na organização da memória que é organizada em bytes, mas os dados que se movimentam entre processador e memória são organizados em palavras. </p>
+            <p>Se isto não ocorrer, o processador ficará em estado de espera (wait state) até que a palavra completa seja transferida e a transferência irá gastar mais de um ciclo de memória. </p>
+            <br/>
+            <br/>
+            <b>Clock - Relógio </b>
+            <br/>
+            <p>Dispositivo gerador de pulsos cuja duração é chamada de ciclo. A quantidade de vezes que o pulso se repete em um segundo define a frequência (ciclos/seg ou Hz). </p>
+            <p>A frequência define a velocidade do processador. </p>
+            <p>Durante um ciclo de clock ocorre a realização de uma operação elementar do ciclo de máquina ou de instrução.  </p> 
+            <br/>
+            <br/>
+            <b>Processamento Paralelo </b>
+            <br/>
+            <p>Tradicionalmente, um computador era constituído de uma única Unidade de Controle, uma única Unidade Lógica e Aritmética e uma única unidade de Memória. Com a evolução da tecnologia, os computadores passaram a ter diversas unidades de controle, várias unidades Lógicas e Aritméticas e diversas unidades de Memória. </p>
+            <p>Essa ideia é o que se chama de Processamento Paralelo. Assim, como o Pipeline o processamento paralelo pode melhorar o throughput. </p>
+            <p>De acordo com M. J. Flynn, o processamento paralelo pode ocorrer nos fluxos de dados, instruções ou ambos. </p>
+            <p>O Processamento Paralelo apresenta-se como: </p>
+            <ul>
+            	<li>SISD – Single Instruction-Stream, Single Data-Stream (Único fluxo de instruções e único fluxo de dados); </li>
+            	<li>SIMD – Single Instruction-Stream, Multiple Data-Stream (Único fluxo de instruções e múltiplos fluxos de dados); </li>
+            	<li>MISD – Multiple Instruction-Stream, Single Data-Stream (Múltiplos fluxos de instruções e único fluxo de dados); </li>
+            	<li>MIMD – Multiple Instruction-Stream, Multiple Data-Stream (Múltiplos fluxos de instruções e múltiplos fluxos de dados);</li>
+            </ul>
+            <br/>
+            <br/>
+          </div>
+
+
+          <div>
+            <h1>Teste</h1><br/>
+            <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">                
+              <div class="question">Qual dos seguintes itens melhor define a velocidade do processador?</div><br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Fonte de alimentação<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Memória cache L3<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> Barramento de endereço<br/>
+              <input id="answer" type="radio" name="grupo1" value="certo"> Frequência do clock<br/>
+              <input id="answer" type="radio" name="grupo1" value="errado"> fps do monitor utilizado em conjunto ao processador, pricipalmente quando jogos estão sendo executados<hr>
+
+              <button class="submit btn btn-success my-2 my-sm-0" onclick="return handleClick();" type="submit">Enviar</button>
+
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_06_AOC_c03.html'">Página Anterior</a></button>
+              <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='01_06_AOC_c05.html'">Próxima Página</a></button>
+            </form>
+
+            <script>
+              function handleClick()
+              {         
+              var amountCorrect = 0;          
+              for(var i = 1; i <= 45; i++) {
+                var radios = document.getElementsByName('grupo'+i);
+                for(var j = 0; j < radios.length; j++) {
+                  var radio = radios[j];
+                  if(radio.value == "certo" && radio.checked) {
+                    amountCorrect++;
+                    }
+                  }
+                }                   
+              if(amountCorrect == 1) {
+                alert("Parabéns você acertou! \nContinue assim e você será o próximo Bill Gates!");
+                }
+              else {
+                //alert("Respostas Corretas: " + amountCorrect + " de 1");
+                alert("Você errou :/... Não desanime! Tente novamente!");
+                }
+              
+              }
+            </script>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>
+
