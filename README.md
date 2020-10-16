@@ -65,20 +65,20 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/mat_disc_pag01.gif)
 
-- [Conteúdos em HTML]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20HTML)
+[- Conteúdos em HTML]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20HTML)
 
 ## Conteúdos em Texto
 
 Obs.: Os conteúdos em texto podem demorar alguns segundos para abrir, em razão do tamanho do arquivo, ou pode haver algum erro na leitura, porém basta atualizar a página.
 
-1. [Arquitetura e Organização de Computadores](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores.pdf)
+- [Arquitetura e Organização de Computadores](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores.pdf)
 
-2. [Laboratório de Hardware](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Laborat%C3%B3rio%20de%20Hardware.pdf)
+- [Laboratório de Hardware](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Laborat%C3%B3rio%20de%20Hardware.pdf)
 
-3. [Língua Inglesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Inglesa.pdf)
+- [Língua Inglesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Inglesa.pdf)
 
-4. [Língua Portuguesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Portuguesa.pdf)
+- [Língua Portuguesa](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%ADngua%20Portuguesa.pdf)
 
-5. [Lógica de Programação](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o.pdf)
+- [Lógica de Programação](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o.pdf)
 
-6. [Matemática Discreta](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Matem%C3%A1tica%20Discreta.pdf)
+- [Matemática Discreta](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Matem%C3%A1tica%20Discreta.pdf)
