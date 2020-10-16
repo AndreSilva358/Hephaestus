@@ -47,7 +47,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ### - Laboratório de Hardware
 
-
+![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/hardware_pag01.gif)
 
 ### - Língua Inglesa
 
