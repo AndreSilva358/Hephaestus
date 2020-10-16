@@ -10,7 +10,7 @@ Estabelecemos para esta entrega, a aplicação do seguinte card.
 
 Lista de tarefas da sprint.
 
-![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/sprints_backlog_page-0002.jpg)
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/sprints_backlog.002.jpeg)
 
 ## Cards para as Entregas
 
