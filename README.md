@@ -39,6 +39,8 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/teste.gif?raw=true)
 
+[Home Page em HTML](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Home%20page%20em%20HTML)
+
 ## Conteúdos em HTML
 
 ### 1. Arquitetura e Organização de Computadores
