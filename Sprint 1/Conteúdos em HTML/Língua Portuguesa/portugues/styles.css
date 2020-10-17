@@ -1,0 +1,97 @@
+/* NAVBAR */
+
+.logo_00{
+	max-width:40px;
+    height:auto;
+    color: white !important;
+	margin-bottom:5px;
+}
+.navbar-brand{
+	font-weight: ligth;
+	color: white !important;
+}
+
+.nav-bar-new{
+	color: rgba(255,255,255,1);
+}
+
+.lang-btn{
+	color: gray;
+	margin-right: 10px;
+}
+
+.flag_lang{
+	height: 20px;
+	margin-bottom:5px;
+	display: right;
+}
+
+.btn_srch{
+	background-color: transparent;
+	color: white;
+	border: none;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+}
+
+.btn_header {
+	margin-left: 5px;
+}
+
+.jumbotron-new{
+	/* Location of the image */
+	
+	background-color: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-top: 0;
+	
+}
+.div-promocao{
+	background-color: orange;
+	color: white;
+	margin-top:60px;
+	height: 40px;
+	line-height: 40px;
+	text-align:center;
+
+
+}
+
+.btn-div1{
+	margin-top: 30px;
+}
+.btn-div{
+	margin-top: 30px;
+}
+
+.btn-metodologias{
+	border: 5px solid black;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.btn-div2{
+	margin-top: 140px;
+	margin-bottom: 30px;
+}
+
+.btn-conteudo{
+	border: 5px solid black;
+	width: 300px;
+	font-weight: bold;
+	color: #66cc00 !important;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+
+body{
+	background-color: #CCCCCC;
+}
+
+
