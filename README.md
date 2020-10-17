@@ -39,8 +39,6 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/teste.gif?raw=true)
 
-[Home Page em HTML](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Home%20page%20em%20HTML)
-
 ## Conteúdos em HTML
 
 ### 1. Arquitetura e Organização de Computadores
@@ -67,9 +65,9 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/mat_disc_pag01.gif)
 
-[Clique aqui se deseja visualizar os conteúdos e a home page em HTML.]()
+[Clique aqui se deseja visualizar os conteúdos e a home page em HTML.](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Pasta%20compactada%20com%20as%20p%C3%A1ginas%20em%20HTML)
 
-**Obs.: É necessário fazer o download da pasta compactada para visualização das páginas. Clique em 'Pasta compactada com os conteúdos em HTML', depois em 'Conteúdos.zip', e por fim em 'View raw'.**
+**Obs.: É necessário fazer o download da pasta compactada para visualização das páginas. Clique em 'Pasta compactada com as páginas em HTML', depois em 'Páginas em HTML.zip', e por fim em 'View raw'. Extraia os arquivos após o download.**
 
 ## Conteúdos em Texto
 
