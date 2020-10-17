@@ -25,7 +25,7 @@ Aqui você pode acompanhar como foi e como está sendo cada uma das entregas.
 
 Nesta segunda fase do projeto, nosso propósito consiste em desenvolver e apresentar os conteúdos de Arquitetura e Organização de Computadores, Laboratório de Hardware, Língua Inglesa, Língua Portuguesa: Pontuação e Concordância, Lógica de Programação e Matemática Discreta com exercícios e testes em formato de texto. Além dos conteúdos em texto, entregaremos os mesmos em HTML, assim como a home page (página inicial) neste mesmo formato.
 
-Obs.: Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção de páginas na Web, será uma das linguagem utilizada para o desenvolvimento do projeto.
+Obs.: Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção de páginas na Web, será uma das linguagens utilizadas para o desenvolvimento do projeto.
 
 ## Aplicação
 
