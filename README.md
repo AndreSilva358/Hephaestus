@@ -51,6 +51,10 @@ O diagrama descreve a funcionalidade proposta para o sistema que está sendo pro
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Diagrama%20caso%20de%20uso.png?raw=true)
 
+## Mapa de Páginas do Site
+
+![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Mapa%20de%20P%C3%A1ginas-2.png?raw=true)
+
 ## Personalização "Desconto para usuários"
 
 ![](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-0/Sprint%200/Promo%C3%A7%C3%A3o/Promo%C3%A7%C3%A3o.png?raw=true)
