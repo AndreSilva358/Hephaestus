@@ -67,7 +67,7 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ![alt-text](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/mat_disc_pag01.gif)
 
-[- Conteúdos em HTML]( https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20HTML)
+[Clique aqui se deseja visualizar os conteúdos em HTML. É necessário fazer o download da pasta compactada para visualização das páginas.](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/tree/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20HTML)
 
 ## Conteúdos em Texto
 
