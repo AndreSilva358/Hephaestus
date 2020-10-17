@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+   
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles_mat.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Matemática Discreta</title>
+
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu " aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <h1>Matemática Discreta</h1>
+          <p>Nessa seção voce irá aprender sobre Lógica Formal e Grafos</p><br>
+          <h3>Lógica Formal Parte IV </h3>
+          <h4><span style="text-decoration: underline;">Tautologias, Contradições e Contingências</span></h4><br>
+
+          <!-- 01 -->
+          <p><strong>1. TAUTOLOGIA</strong></p>
+          <p style="text-indent: 30px;"> Uma tautologia é uma proposição composta cujo valor lógico é sempre verdade (V), 
+            independente dos valores lógicos das proposições simples que a compõem.</p>
+          <p style="text-indent: 30px;">Na coluna de saída da tabela-verdade de uma tautologia, ocorre sempre o valor lógico 
+            <strong>V</strong> (verdade). Assim, se <strong>P(p<sub>1</sub>, p<sub>2</sub>, …, p<sub>n</sub>)</strong> é uma tautologia, 
+            seu valor lógico é <strong>V</strong> independente dos valores lógicos das proposições simples <strong>p<sub>1</sub>, p<sub>2</sub>, …, p<sub>n</sub></strong>.</p>
+          <p style="text-indent: 30px;">Uma tautologia é também chamada de proposição tautológica ou proposição logicamente verdadeira.</p> 
+          <p style="text-indent: 30px;">A afirmação <strong>“hoje é sábado ou não é sábado”</strong> é um exemplo de tautologia. Pois não há dúvidas 
+            de que seja verdadeira sempre, não importando qual dia seja hoje.</p>
+          <p style="text-indent: 30px;">Vejamos o exemplo a seguir:</p> 
+          <ul>
+            <li>a) A proposição <strong>~ ( p ^ ~ p)</strong> é uma tautologia, como pode ser visto em sua tabela-verdade.</li><br>
+            <img src="images/tabela24.jpg">
+            <br><br>
+            <p>Observe que, na ultima coluna qual chamamos de coluna de saída da tabela verdade de <strong>~ ( p ^ ~ p)</strong>, 
+              só há o valor lógico <strong>V</strong> (verdade). Esse exemplo ilustra o princípio da não-contradição, apresentado anteriormente, 
+              e significa que a afirmação <strong>“uma proposição não pode ser simultaneamente verdadeira e falsa”</strong> é verdadeira.</p>
+            <li>b) A coluna de saída da tabela-verdade de <strong>p V ~ p</strong> só apresenta valor lógico <strong>V</strong> (verdade).</li><br>
+            <img src="images/tabela25.jpg">
+            <br><br>
+            <p>Logo, <strong>p V ~ p</strong> é uma tautologia. Veja que esse exemplo ilustra <strong>o princípio do terceiro excluído</strong>, o 
+              qual corresponde dizer que a afirmação <strong>“uma proposição ou é verdadeira ou é falsa”</strong> é necessariamente verdadeira.</p>
+          </ul>
+
+          <!-- 02 -->
+          <p><strong>2. CONTRADIÇÃO</strong></p>
+          <p style="text-indent: 30px;">Uma contradição é uma proposição composta cujo valor lógico é sempre falsidade <strong>(F)</strong>, 
+            independente dos valores lógicos das proposições simples que a compõem.</p>
+          <p style="text-indent: 30px;">Uma contradição também é chamada proposição contraválida ou proposição logicamente falsa.</p>
+          <p style="text-indent: 30px;">Na coluna de saída da tabela verdade de uma contradição, ocorre sempre o valor lógico <strong>F</strong> 
+            (falsidade). Assim, o valor lógico de uma contradição <strong>P(p<sub>1</sub>, p<sub>2</sub>, …, p<sub>n</sub>)</strong> é <strong>F</strong>, 
+            independente dos valores lógicos das proposições simples <strong>P(p<sub>1</sub>, p<sub>2</sub>, …, p<sub>n</sub>)</strong>.</p>
+          <p style="text-indent: 30px;">A afirmação “hoje é sábado e hoje não é sábado” é <strong>contraválida</strong>, pois seu valor 
+              lógico é evidentemente falso, não importando qual dia seja hoje. </p>
+          <p style="text-indent: 30px">Vejamos alguns exemplos a seguir:</p>
+          <ul>
+            <li><p>a) a proposição <strong>p ^ ~ p</strong> é uma contradição, conforme se vê por sua tabela-verdade.</p></li>
+              <img src="images/tabela26.jpg">
+              <br><br>
+              <p>Como pode-se notar, a coluna de saída da tabela-verdade de <strong>p ^ ~ p</strong> só encerra o valor lógico <strong>falsidade</strong>. 
+                Esse exemplo ilustra <strong>o principio da não contradição</strong>, segundo o qual a afirmação <strong>“uma proposição não pode ser 
+                  simultaneamente verdadeira e falsa”</strong> é necessariamente verdadeira.</p>
+            
+            <li><p>b) A proposição <strong>p ↔ ~ p</strong> é contraválida. Vejamos sua tabela verdade:</p></li>
+            <img src="images/tabela27.jpg">
+            <br><br>
+            <p>Note que a última coluna da tabela-verdade de  <strong>p ↔ ~ p</strong> só apresenta o valor lógico <strong>F</strong> (falsidade).</p>
+          </ul>
+
+          <p style="text-indent: 30px;">Um princípio bem útil na determinação de tautologias e contradições é o <strong>Princípio da Substituição</strong>, o
+             que nos diz o seguinte:</p>
+          <p style="text-indent: 30px;"><i>“Seja <strong>P(p<sub>1</sub>, p<sub>2</sub>, …, p<sub>n</sub>)</strong> uma tautologia (contradição) qualquer. 
+          Se substituirmos as proposições <strong>P(p<sub>1</sub>, p<sub>2</sub>, …, p<sub>n</sub>)</strong> por outras proposições quaisquer (simples ou 
+          compostas) <strong>q<sub>1</sub>, q<sub>2</sub>, …, q<sub>n</sub></strong> , então a nova proposição <strong>P(q<sub>1</sub>, q<sub>2</sub>, …, q<sub>n</sub>)</strong> 
+          que se obtém também é uma tautologia (contradição)”. </i></p>
+
+          <p style="text-indent: 30px;">A demonstração do Princípio da Substituição é imediata e segue do fato que o valor lógico de uma tautologia é 
+            sempre <strong>V</strong> (verdade) e de uma contradição é sempre <strong>F</strong> (falsidade), quaisquer que sejam os valores lógicos de 
+            suas proposições componentes, ou seja, ser uma tautologia ou uma contradição depende apenas de como as componentes estão relacionadas, não 
+            dependendo de serem estas componentes verdadeiras ou falsas.
+          </p>
+          <p style="text-indent: 30px;">
+            Como aplicação do <strong>Princípio da Substituição</strong>, a proposição <strong>(r → ~ s) V ~ (r → ~ s)</strong> é tautológica, pois é obtida 
+            da proposição, <strong>p V ~ p</strong> do exemplo <strong>b)</strong> da seção de Tautologia, por substituição da proposição <strong>p</strong> 
+            por <strong>r → ~ s</strong>. A Inserção de parêntesis é para garantir que a proposição obtida continue sendo a disjunção de uma proposição com sua 
+            negação.
+          </p>
+
+          <!-- 03 -->
+          <p><strong>3. CONTINGÊNCIAS</strong></p>
+          <p style="text-indent: 30px;">Uma contingência é uma proposição composta em cuja tabela-verdade ocorrem, na coluna de saída, os valores 
+            lógicos <strong>V</strong> (verdade) e <strong>F</strong> (falsidade).
+          </p>
+          <p style="text-indent: 30px;">Uma contingência é também chamada proposição contingente ou proposição indeterminada.</p>
+          <p style="text-indent: 30px;">Na ultima coluna da tabela-verdade de uma contingência, devem ocorrer os valores lógicos V e F, cada um pelo menos uma vez.</p>
+          <p style="text-indent: 30px;">Vejamos o exemplo a seguir:</p>
+          <ul>
+            <li>a) A proposição <strong>p V q → p ^ q</strong> é uma contingência, conforme pode ser visto em sua tabela-verdade.</li>
+            <img src="images/tabela28.jpg">
+            <br><br>
+            <p>Perceba que a última coluna da tabela-verdade de <strong>p V q → p ^ q</strong> apresenta valores lógicos <strong>V</strong> (verdade) e <strong>F</strong> (falsidade).</p>
+          </ul>
+
+          <h2>Exercícios</h2>
+          <p>Agora teste o seu grau de aproveitamento do conteúdo resolvendo os exercícios a seguir</p>
+          <p><strong>TAUTOLOGIAS, CONTRADIÇÕES E CONTINGÊNCIAS</strong></p>
+          <p style="text-indent: 30px;">1. Determine se as seguintes proposições são tautológicas, contradições ou contingências utilizando a tabela-verdade:</p>
+          <ul>
+            <li>a) p → q ↔ ~ q → ~ p</li>
+            <li>b) p ^ r → ~ q V r</li>
+            <li>c) p → q ↔ p ^ ~ q</li>
+            <li>d) ~ p ^ (p ^ ~ q)</li>
+            <li>e) ~ p ^ r → q V ~ r</li>
+            <li>f) p → r ↔ q V ~ r</li>
+          </ul>
+          <h2>Gabarito</h2>
+          <p>Confira suas respostas</p>
+          <ul>
+            <li>a) Tautologia</li>
+            <img src="images/tabela29.jpg">
+            <br><br>
+            <li>b) Tautologia</li>
+            <img src="images/tabela30.jpg">
+            <br><br>
+            <li>c) Contradição</li>
+            <img src="images/tabela31.jpg">
+            <br><br>
+            <li>d) Contradição</li>
+            <img src="images/tabela32.jpg">
+            <br><br>
+            <li>e) Contingência</li>
+            <img src="images/tabela33.jpg">
+            <br><br>
+            <li>f) Contingência</li>
+            <img src="images/tabela34.jpg">
+            <br><br>
+          </ul><br>
+        
+        </div>
+
+        <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='mat_disc_part03.html'">Página Anterior</a></button>
+        <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='mat_disc_part05.html'">Próxima Página</a></button>
+        
+      </div>
+      
+
+      
+
+        
+
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>
+

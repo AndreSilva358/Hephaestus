@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+   
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles_mat.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Matemática Discreta</title>
+
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu " aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <h1>Matemática Discreta</h1>
+          <p>Nessa seção voce irá aprender sobre Lógica Formal e Grafos</p><br>
+          <h3>Lógica Formal Parte VI </h3>
+          <h4><span style="text-decoration: underline;">Método de Refutação</span></h4><br>
+
+          <!-- 01 -->
+          <p><strong>1. REDUÇÃO AO ABSURDO</strong></p>
+          <p style="text-indent: 30px;">Método de Refutação é baseado em uma técnica de prova, chamada de prova por <strong>redução ao absurdo</strong>, que consiste no seguinte procedimento:</p>
+          <ul>
+            <li>Admite-se inicialmente que as premissas são verdadeiras e a conclusão é falsa em alguma atribuição de valores de verdade para as letras sentenciais;</li>
+            <li>O argumento será válido se, em qualquer tentativa de explicitar essa tal atribuição um absurdo for gerado, isto é, se uma mesma sentença assumir tanto valor V como valor F;</li>
+          </ul>
+          <p style="text-indent: 30px;">Vejamos o exemplo a seguir:</p>
+          <ul>
+            <li><i>Quando Diego completar 18 anos, ele terá que se alistar nas forças armadas.</i></li>
+            <li><i>Se Diego se alistar nas forças armadas, ele terá de mudar de cidade.</i></li>
+            <li><i>Logo, Diego completa 18 anos somente se mudar de cidade.</i></li><br>
+            <p>A conclusão pode ser reescrita da seguinte forma:</p>
+            <li><i>Se Diego completar 18 anos, então Diego deverá mudar de cidade.</i></li><br>
+            <p>Então temos as seguintes sentenças atômicas:</p>
+            <li>p : Diego completa 18 anos.</li>
+            <li>q : Diego terá que se alistar nas forças armadas.</li>
+            <li>r : Diego deverá mudar de cidade</li>
+          </ul>
+          <p style="text-indent: 30px;">Ao representarmos de forma simbólica, os argumentos ficam assim:</p>
+          <ul>
+            <li>Premissas:</li>
+            <img src="images/refut01.jpg"><br><br>
+            <li>Conclusão:</li>
+            <img src="images/refut02.jpg"><br><br>
+            <p>Então, primeiramente devemos assumir que as premissas são todas verdadeiras e a conclusão é falsa.</p>
+            <li>Premissas:</li>
+            <img src="images/refut03.jpg"><br><br>
+            <li>Conclusão:</li>
+            <img src="images/refut04.jpg"><br><br>
+            <p>Então, agora devemos analisar cada uma das sentenças atômicas. Assim, para que a conclusão seja <strong>FALSA (F)</strong>, é necessário que <strong>p</strong> seja <strong>VERDADEIRO (V)</strong> e <strong>q</strong> seja <strong>FALSO (F)</strong>, seguindo as regras da tabela verdade dos conectivos lógicos de implicação, <strong>V → F = F</strong>:</p>
+            <li>Premissas:</li>
+            <img src="images/refut05.jpg"><br><br>
+            <li>Conclusão:</li>
+            <img src="images/refut06.jpg"><br><br>
+            <p>Assumindo-se que <strong>r</strong> é <strong>FALSO (F)</strong>, então na proposição <strong>q → r</strong> é necessário que <strong>q</strong> também seja <strong>FALSO (F)</strong>, pois é a única forma para a proposição <strong>q → r</strong> resultar em <strong>VERDADEIRO (V)</strong>, seguindo as regras da tabela verdade dos conectivos lógicos de implicação, <strong>F → F = V</strong>:</p>
+            <li>Premissas:</li>
+            <img src="images/refut07.jpg"><br><br>
+            <li>Conclusão:</li>
+            <img src="images/refut08.jpg"><br><br>
+            <p>	Assumindo-se que <strong>q</strong> é <strong>FALSO (F)</strong>, então na proposição <strong>p → q</strong> é necessário que <strong>p</strong> também seja <strong>FALSO (F)</strong>, pois é a única forma para a proposição <strong>p → q</strong> resultar em <strong>VERDADEIRO (V)</strong>, seguindo as regras da tabela verdade dos conectivos lógicos de implicação, <strong>F → F = V</strong>, então é exatamente aí que encontramos nossa prova por redução ao absurdo, pois a implicação <strong>p → q</strong> na verdade resulta em <strong>FALSO (F)</strong>, <strong>V → F = F</strong>:</p>
+            <li>Premissas:</li>
+            <img src="images/refut09.jpg"><br><br>
+            <li>Conclusão:</li>
+            <img src="images/refut10.jpg"><br><br>
+            <p>Devemos nos recordar do princípio da não contradição:</p>
+            <p><i>“<strong>Princípio na Não-contradição</strong> uma sentença não pode ser verdadeira e falsa em uma mesma atribuição de valores para as letras sentenciais”</i></p>
+            <p>Não podendo existir uma atribuição de valores para as letras sentenciais na qual as <strong>premissas são verdadeiras</strong> e a <strong>conclusão é falsa</strong>. Portanto, <strong>o argumento é válido</strong>.</p>
+          </ul>
+          
+          <h2>Exercícios</h2>
+          <p>Agora teste o seu grau de aproveitamento do conteúdo resolvendo os exercícios a seguir</p>
+          <p><strong>REFUTAÇÃO POR REDUCÃO AO ABSURDO</strong></p>
+          <p style="text-indent: 30px;">Determine se as seguintes formas de argumentos são válidas ou inválidas utilizando o método de refutação por redução ao absurdo:</p>
+          <ul>
+            <li>a)</li>
+            <img src="images/refut11.jpg"><br><br>
+            <li>b)</li>
+            <img src="images/refut12.jpg"><br><br>
+            <li>c)</li>
+            <img src="images/refut13.jpg"><br><br>
+            <li>d)</li>
+            <img src="images/refut14.jpg"><br><br>
+            <li>e)</li>
+            <img src="images/refut15.jpg"><br><br>
+            <li>f)</li>
+            <img src="images/refut16.jpg"><br><br>
+          </ul>
+
+          <h2>Gabarito</h2>
+          <p>Confira suas respostas</p>
+          <ul>
+            <li>a) Válido, pois ocorreu um absurdo.</li>
+            <li>b) Válido, pois ocorreu um absurdo.</li>
+            <li>c) Válido, pois ocorreu um absurdo.</li>
+            <li>d) Válido, pois ocorreu um absurdo.</li>
+            <li>e) Inválido, pois não ocorreu um absurdo.</li>
+            <li>f) Válido, pois ocorreu um absurdo.</li>
+          </ul><br>
+            
+        </div>
+
+        <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='mat_disc_part05.html'">Página Anterior</a></button>
+        <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='mat_disc_part07.html'">Próxima Página</a></button>
+        
+      </div>
+      
+
+      
+
+        
+
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>
+

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+  
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+    }
+
+   
+    </style>
+     
+    <!-- Custom styles: CSS -->
+    <link href="styles_mat.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/logo.png" />
+    <title>Hephaestus - Conteúdo Matemática Discreta</title>
+
+
+  </head>
+  <body>
+    <header>  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="01_00_conteudos" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdos</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="01_01_LogProg.html">Lógica de Programação</a>
+                <a class="dropdown-item" href="01_02_MatDisc.html">Matemática Discreta</a>
+                <a class="dropdown-item" href="01_03_Hard.html">Hardware</a>
+                <a class="dropdown-item" href="01_04_Port.html">Português</a>
+                <a class="dropdown-item" href="01_05_Ingles.html">Inglês</a>
+                <a class="dropdown-item" href="01_06_AOC.html">Arq. e Org. Cómputadores</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="caps form-control mr-sm-2" type="text" placeholder="Pesquisa" aria-label="Pesquisa">
+              <button type="submit" class="btn btn_srch">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="btn_srch" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+            </form>          
+          </ul>
+          
+          <form class="form-inline my-2 my-lg-0 navbar-nav">
+            <a href="#"><img class="logo_00" src=images/carrinho.png></a>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pt <img class="flag_lang" src="images/pt.png"></a>
+              <div class="dropdown-menu " aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="00_index_en.html">En <img class="flag_lang" src=images/en.png></a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="lang-btn nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="logo_00" src="images/My_icon.png"></a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="02_01_Meus_contudos.html">Meus conteúdos</a>
+                <a class="dropdown-item" href="02_02_Saldo_creditos.html">Saldo de crédito</a>
+                <a class="dropdown-item" href="02_03_Formas_pagamento.html">Formas de pagamento</a>
+                <a class="dropdown-item" href="02_04_Meus_dados.html">Meus dados</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+
+      
+
+    </header>
+
+
+    <!-- Promoção -->
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron-new jumbotron">      
+        <div class="btn-div1">
+          
+          <h1>Matemática Discreta</h1>
+          <p>Nessa seção voce irá aprender sobre Lógica Formal e Grafos</p><br>
+          <h3>Lógica Formal Parte III </h3>
+          <h4><span style="text-decoration: underline;">Construção de Tabelas-Verdade</span></h4><br>
+
+          <!-- 01 -->
+          <p><strong>1. TABELA VERDADE DE UMA PROPOSIÇÃO COMPOSTA</strong></p>
+          <p style="text-indent: 30px;"> Dadas várias proposições simples p, q, r, …, podemos combiná-las pelos conectivos lógicos</p>
+          <ul>
+            <li><strong>~</strong> Negação</li>
+            <li><strong>^</strong> Conjuncão</li>
+            <li><strong>V</strong> Disjuncão</li>
+            <li><strong>→</strong> Condicional (implicação)</li>
+            <li><strong>↔</strong> Bicondicional (bi-implicação)</li>
+          </ul>
+          <p style="text-indent: 30px;">e construir proposições compostas, tais como:</p>
+          <ul>
+            <li>P(p, q) = ~ p V (p → q)</li>
+            <li>Q(p, q) = (p ↔ ~ q) ^ q</li>
+            <li>R(p, q, r) = (p → ~ q V r) ^ (q V (p ↔  ~ r)</li>
+          </ul>
+          <p style="text-indent: 30px;">Então, com o emprego das tabelas-verdade das operações lógicas fundamentais:</p>
+          <ul>
+            <li>~ p</li>
+            <li>p ^ q</li>
+            <li>p V q</li>
+            <li>p → q</li>
+            <li>p ↔ q</li>
+          </ul>
+          <p style="text-indent: 30px;">Podemos construir a tabela-verdade de qualquer proposição composta dada. 
+          A tabela-verdade mostrará  os casos em que a proposição composta será verdadeira (V) ou falsa (F), 
+          de acordo com a combinação dos valores lógicos das proposições simples componentes.</p>
+          
+          <!-- 02 -->
+          <p><strong>2. NÚMERO DE LINHAS DE UMA TABELA-VERDADE</strong></p>
+          <p style="text-indent: 30px;">O número de linhas em uma tabela verdade de uma proposição composta dependerá 
+            diretamente do número proposições simples que a compõem, de acordo com o seguinte teorema:</p>
+          
+          <p style="text-indent: 30px;"><strong>"A tabela-verdade de uma proposição composta com <em>n</em> 
+          proposições simples componentes contém <em>2n</em> linhas."</strong></p><br>
+
+          <!-- 03 -->
+          <p><strong>3. CONSTRUÇÃO DA TABELA-VERDADE DE UMA PROPOSIÇÃO COMPOSTA</strong></p>
+          <p>Para a construção prática da tabela-verdade de uma proposição composta devemos primeiro contar o 
+            número de proposições simples que a ela possui. Se a proposição composta possui <strong>n</strong>
+            proposições simples: <strong>p<sub>1</sub>, p<sub>2</sub>, p<sub>3</sub>,… , p<sub>n</sub></strong>, então a tabela-verdade 
+            irá conter <strong>2<sup>n</sup></strong> linhas. Posto isto, à 1ª proposição simples <strong>p<sub>1</sub></strong> atribuem-se 
+            <strong>2<sup>n</sup> / 2 = 2<sup>n-1</sup></strong> valores <strong>V</strong> seguidos de <strong>2<sup>n-1</sup></strong> valores 
+            <strong>F</strong> à 2ª proposição simples <strong>p<sub>2</sub></strong> atribuem-se <strong>2<sup>n</sup> / 4 = 2<sup>n-2</sup></strong> 
+            valores <strong>V</strong>, seguidos de <strong>2<sup>n</sup> / 2 = 2<sup>n-2</sup></strong> valores <strong>F</strong>, seguidos de 
+            <strong>2<sup>n</sup> / 2 = 2<sup>n-2</sup></strong> valores <strong>V</strong>, seguidos, finalmente, de 
+            <strong>2<sup>n</sup> / 2 = 2<sup>n-2</sup></strong> valores <strong>F</strong>; e assim por diante. De modo genérico, a 
+            <strong>k-ésima</strong> proposição simples <strong>p<sub>k</sub> (k ≤ n)</strong> atribuem-se alternadamente 
+            <strong>2<sup>n</sup> / 2<sup>k</sup> = 2<sup>n-k</sup></strong> valores <strong>V</strong> seguidos de igual número de valores <strong>F</strong>.
+          </p>
+          
+          <p style="text-indent: 30px;">Vejamo o exemplo a seguir:</p>
+          <p>1º - Construção da tabela-verdade da proposição: <strong>(p, q) = ~ (p ^ ~ q)</strong></p>
+          <ul>
+            <li><p><strong>Primeiro passo:</strong> Forma-se primeiro as colunas correspondentes às duas proposições simples componentes p e q:</p>
+              <img src="images/tabela06.jpg">
+              <br><br></li>
+            <li><p><strong>Segundo passo:</strong> Forma-se a coluna para ~ q:</p>
+              <img src="images/tabela07.jpg">
+              <br><br></li>
+            <li><p><strong>Terceiro passo:</strong> Forma-se a coluna para p ^ ~ q:</p>
+              <img src="images/tabela08.jpg">
+              <br><br></li>
+            <li><p><strong>Quarto passo:</strong> Forma-se a coluna para ~ (p ^ ~ q):</p>
+              <img src="images/tabela09.jpg">
+              <br><br></li>
+          </ul>
+
+          <p style="text-indent: 30px;">Para a construção das tabelas-verdade é imprescindível ter em mente os resultados das possíveis 
+          combinações de valores lógicos de cada conectivo lógico, como o conectivo de negação (~), conjunção (^), disjunção (V), 
+          condicional (→) e bicondicional (↔).</p>
+
+          <p style="text-indent: 30px;">Vejamo mais um exemplo:</p>
+          <p>2º - Construção da tabela-verdade da proposição: P(p, q) = ~ (p ^ q) V ~ (q ↔ p)</p>
+          <ul>
+            <li><p><strong>Primeiro passo:</strong> Forma-se primeiro as colunas correspondentes às duas proposições simples componentes p e q:</p>
+              <img src="images/tabela10.jpg">
+              <br><br></li>
+            <li><p><strong>Segundo passo:</strong> Forma-se a coluna para p ^ q:</p>
+              <img src="images/tabela11.jpg">
+              <br><br></li>
+            <li><p><strong>Terceiro passo:</strong> Forma-se a coluna para q ↔ p:</p>
+              <img src="images/tabela12.jpg">
+              <br><br></li>
+            <li><p><strong>Quarto passo:</strong> Forma-se a coluna para ~(p ^ q):</p>
+              <img src="images/tabela13.jpg">
+              <br><br></li>
+            <li><p><strong>Quinto passo:</strong> Forma-se a coluna para ~(p ↔ q):</p>
+              <img src="images/tabela14.jpg">
+              <br><br></li>  
+            <li><p><strong>Sexto passo:</strong> Forma-se a coluna para ~ (p ^ q) V ~ (q ↔ p):</p>
+              <img src="images/tabela15.jpg">
+              <br><br></li>   
+          </ul>
+            
+          <h2>Exercícios</h2>
+          <p style="text-indent: 30px;">1. Construa as tabelas-verdade das seguintes proposições:</p>
+          <ul>
+            <li>a) ~ (p V ~ q)</li>
+            <li>b) ~ (p → ~ q)</li>
+            <li>c) p ^ q → p V q</li>
+            <li>d) ~ p → (q → p)</li>
+            <li>e) (p → q) → p ^ q</li>
+            <li>f) q ↔ ~ q ^ p</li>
+            <li>g) (p ↔ ~ q) ↔ q → p</li>
+            <li>h) (p ↔ ~ q) → ~ p ^ q</li>
+          </ul>
+          
+          <h2>Gabarito</h2>
+          <p>Confira suas respostas</p>
+          <p>Exercício 1</p>
+          <ul>
+            <li>
+              <p>a) ~ (p V ~ q)</p>
+              <img src="images/tabela16.jpg">
+            </li><br>
+            <li>
+              <p>b) ~ (p → ~ q)</p>
+              <img src="images/tabela17.jpg">
+            </li><br>
+            <li>
+              <p>c) p ^ q → p V q</p>
+              <img src="images/tabela18.jpg">
+            </li><br>
+            <li>
+              <p>d) ~ p → (q → p)</p>
+              <img src="images/tabela19.jpg">
+            </li><br>
+            <li>
+              <p>e) (p → q) → p ^ q</p>
+              <img src="images/tabela20.jpg">
+            </li><br>
+            <li>
+              <p>f) q ↔ ~ q ^ p</p>
+              <img src="images/tabela21.jpg">
+            </li><br>
+            <li>
+              <p>g) (p ↔ ~ q) ↔ q → p</p>
+              <img src="images/tabela22.jpg">
+            </li><br>
+            <li>
+              <p>h) (p ↔ ~ q) → ~ p ^ q</p>
+              <img src="images/tabela23.jpg">
+            </li><br>
+          </ul><br>
+          
+        
+        
+        </div>
+
+        <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='mat_disc_part02.html'">Página Anterior</a></button>
+        <button class="btn_header btn btn-outline-success my-2 my-sm-0" onclick="location.href='mat_disc_part04.html'">Próxima Página</a></button>
+        
+      </div>
+      
+
+      
+
+        
+
+    </main>
+
+ 
+    <!-- FOOTER -->
+    <footer class="div-footer container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <a class="d-block mb-3 text-muted" href="00_index.html"><img class="logo_00" src=images/logo.png> Hephaestus</a>
+
+          
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Sobre Nós</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Termos</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>
+
