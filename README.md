@@ -35,7 +35,7 @@ Com as funcionalidades entregues nessa sprint, será possível a navegação pel
 
 - Para esta entrega, foi priorizado o desenvolvimento de conteúdos que fossem de fácil entendimento para usuários das mais diversas faixas etárias, e que passasse de forma clara e adequada o conhecimento esperado, atraindo assim um número significativo de usuários. Além disso, elaboramos exercícios e testes para cada conteúdo, para que seja possível para o usuário verificar o desempenho de sua aprendizagem.
 - Desenvolvemos as páginas dos conteúdos em HTML.
-- E a home page (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência no andamento do projeto.
+- E a home page (página inicial) em HTML, pois avaliamos sua relevância para representar a proficiência no andamento do projeto, permitindo a visibilidade de nosso potencial de implementação de todo o site.
 
 ## Home Page em HTML
 
