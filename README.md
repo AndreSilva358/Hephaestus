@@ -73,8 +73,6 @@ Devido ao fato de HTML ser uma linguagem de marcação utilizada na construção
 
 ## Conteúdos em Texto
 
-Obs.: Os conteúdos em texto podem demorar alguns segundos para abrir, em razão do tamanho do arquivo, ou pode haver algum erro na leitura, porém basta atualizar a página.
-
 - [Arquitetura e Organização de Computadores](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores.pdf)
 
 - [Laboratório de Hardware](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Laborat%C3%B3rio%20de%20Hardware.pdf)
@@ -86,3 +84,5 @@ Obs.: Os conteúdos em texto podem demorar alguns segundos para abrir, em razão
 - [Lógica de Programação](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o.pdf)
 
 - [Matemática Discreta](https://github.com/AndreSilva358/Hephaestus---Projeto-Integrador/blob/Sprint-1/Sprint%201/Conte%C3%BAdos%20em%20texto/Matem%C3%A1tica%20Discreta.pdf)
+
+**Obs.: Os conteúdos em texto podem demorar alguns segundos para abrir, em razão do tamanho do arquivo, ou pode haver algum erro na leitura, porém basta atualizar a página.**
